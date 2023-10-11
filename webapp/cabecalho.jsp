@@ -7,7 +7,7 @@
     <meta name="keywords" content="Aler, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aler | Template</title>
+    <title>Sistema Imobiliário</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap"
@@ -49,7 +49,7 @@
                 <li><i class="icon_mail_alt"></i> jp_cbc@hotmail.com</li>
                 <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
             </ul>
-            <a href="#" class="hw-btn">Submit property</a>
+            <a href="imoveis.jsp" class="hw-btn">Ver Imóveis</a>
         </div>
         <div class="om-social">
             <a href="#"><i class="fa fa-facebook"></i></a>
