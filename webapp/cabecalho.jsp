@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<%@ include file="config.jsp" %>
+
 <html lang="zxx">
 
 <head>
@@ -46,7 +49,7 @@
         <div id="mobile-menu-wrap"></div>
         <div class="om-widget">
             <ul>
-                <li><i class="icon_mail_alt"></i> jp_cbc@hotmail.com</li>
+                <li><i class="icon_mail_alt"></i> <%=email %></li>
                 <li><i class="fa fa-whatsapp"></i> (91) 98146-4025 </li>
                 <li><i class="fa fa-mobile-phone"></i> (91) 98146-4025</li>
             </ul>
