@@ -47,7 +47,8 @@
         <div class="om-widget">
             <ul>
                 <li><i class="icon_mail_alt"></i> jp_cbc@hotmail.com</li>
-                <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
+                <li><i class="fa fa-whatsapp"></i> (91) 98146-4025 </li>
+                <li><i class="fa fa-mobile-phone"></i> (91) 98146-4025</li>
             </ul>
             <a href="imoveis.jsp" class="hw-btn">Ver Imóveis</a>
         </div>
@@ -77,7 +78,7 @@
                                 <li><i class="icon_mail_alt"></i> jp_cbc@hotmail.com</li>
                                 <li><i class="fa fa-whatsapp"></i> (91) 98146-4025 <span>125-668-886</span></li>
                             </ul>
-                            <a href="#" class="hw-btn">Submit property</a>
+                            <a href="imoveis.jsp" class="hw-btn">Ver imóveis</a>
                         </div>
                     </div>
                 </div>
@@ -93,18 +94,10 @@
                         <nav class="nav-menu">
                             <ul>
                                 <li class="active"><a href="./index.html">Home</a></li>
-                                <li><a href="#">Properties</a>
-                                    <ul class="dropdown">
-                                        <li><a href="./property.html">Property Grid</a></li>
-                                        <li><a href="./profile.html">Property List</a></li>
-                                        <li><a href="./property-details.html">Property Detail</a></li>
-                                        <li><a href="./property-comparison.html">Property Comperison</a></li>
-                                        <li><a href="./property-submit.html">Property Submit</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="./agents.jsp">Corretores</a></li>
-                                <li><a href="./about.jsp">Sobre</a></li>
-                                <li><a href="./contact.jsp">Contatos</a></li>
+                                <li><a href="imoveis.jsp">Imóveis</a></li>
+                                <li><a href="corretores.jsp">Corretores</a></li>
+                                <li><a href="sobre.jsp">Sobre</a></li>
+                                <li><a href="contatos.jsp">Contatos</a></li>
                             </ul>
                         </nav>
                     </div>
