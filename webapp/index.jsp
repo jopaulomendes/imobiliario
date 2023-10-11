@@ -1,4 +1,4 @@
-<jsp:includ page="cabecalho.jsp"/>
+<jsp:include page="cabecalho.jsp"></jsp:include>
     
     <!-- Hero Section Begin -->
     <section class="hero-section">

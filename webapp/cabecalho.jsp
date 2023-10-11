@@ -39,14 +39,14 @@
             <span class="icon_close"></span>
         </div>
         <div class="logo">
-            <a href="./index.html">
+            <a href="./index.jsp">
                 <img src="img/logo.png" alt="">
             </a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="om-widget">
             <ul>
-                <li><i class="icon_mail_alt"></i> Aler.support@gmail.com</li>
+                <li><i class="icon_mail_alt"></i> jp_cbc@hotmail.com</li>
                 <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
             </ul>
             <a href="#" class="hw-btn">Submit property</a>
@@ -68,14 +68,14 @@
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                            <a href="./index.jsp"><img src="img/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-10">
                         <div class="ht-widget">
                             <ul>
-                                <li><i class="icon_mail_alt"></i> Aler.support@gmail.com</li>
-                                <li><i class="fa fa-mobile-phone"></i> 125-711-811 <span>125-668-886</span></li>
+                                <li><i class="icon_mail_alt"></i> jp_cbc@hotmail.com</li>
+                                <li><i class="fa fa-whatsapp"></i> (91) 98146-4025 <span>125-668-886</span></li>
                             </ul>
                             <a href="#" class="hw-btn">Submit property</a>
                         </div>
@@ -102,10 +102,9 @@
                                         <li><a href="./property-submit.html">Property Submit</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./agents.html">Agents</a></li>
-                                <li><a href="./about.html">About</a></li>
-                                <li><a href="./blog.html">Blog</a></li>
-                                <li><a href="./contact.html">Contact</a></li>
+                                <li><a href="./agents.jsp">Corretores</a></li>
+                                <li><a href="./about.jsp">Sobre</a></li>
+                                <li><a href="./contact.jsp">Contatos</a></li>
                             </ul>
                         </nav>
                     </div>
