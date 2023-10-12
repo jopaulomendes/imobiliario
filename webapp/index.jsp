@@ -1,6 +1,6 @@
 <jsp:include page="cabecalho.jsp"></jsp:include>
 
-<!-- Hero Section Begin -->
+<!-- Carrossel -->
 <section class="hero-section">
 	<div class="container">
 		<div class="hs-slider owl-carousel">
@@ -9,21 +9,21 @@
 					<div class="col-lg-12">
 						<div class="hc-inner-text">
 							<div class="hc-text">
-								<h4>IMÓVEL A VENDA</h4>
-								<p>
-									<span class="icon_pin_alt"></span> Local do Imóvel
+								<h4>Vende-se casa no Jurunas</h4>
+								<p title="Local do imóvel">
+									<span class="icon_pin_alt"></span> Travessa Honório J. dos Santos
 								</p>
 								<div class="label">Comprar</div>
 								<h5>
-									$ 65.0<span>/total</span>
+									R$ 300.000<span>/à vista</span>
 								</h5>
 							</div>
 							<div class="hc-widget">
 								<ul>
-									<li><i class="fa fa-object-group"></i> 2, 283</li>
-									<li><i class="fa fa-bathtub"></i> 03</li>
-									<li><i class="fa fa-bed"></i> 05</li>
-									<li><i class="fa fa-automobile"></i> 01</li>
+									<li title="Metros quadrados"><i class="fa fa-object-group"></i> 380m²</li>
+									<li title="Banheiros"><i class="fa fa-bathtub"></i> 05</li>
+									<li title="Quartos"><i class="fa fa-bed"></i> 05</li>
+									<li title="Vagas na garagem"><i class="fa fa-automobile"></i> 01</li>
 								</ul>
 							</div>
 						</div>
@@ -35,21 +35,21 @@
 					<div class="col-lg-12">
 						<div class="hc-inner-text">
 							<div class="hc-text">
-								<h4>IMÓVEL A VENDA</h4>
-								<p>
-									<span class="icon_pin_alt"></span> Local do Imóvel
+								<h4>Casa de esquina na Marambaia </h4>
+								<p title="Local do imóvel">
+									<span class="icon_pin_alt"></span> Rua Primeiro de Agosto - Marambaia - Belém, PA
 								</p>
 								<div class="label">Comprar</div>
 								<h5>
-									$ 65.0<span>/total</span>
+									R$ 270.000 <span>/à vista/financiado</span>
 								</h5>
 							</div>
 							<div class="hc-widget">
 								<ul>
-									<li><i class="fa fa-object-group"></i> 2, 283</li>
-									<li><i class="fa fa-bathtub"></i> 03</li>
-									<li><i class="fa fa-bed"></i> 05</li>
-									<li><i class="fa fa-automobile"></i> 01</li>
+									<li title="Metros quadrados"><i class="fa fa-object-group"></i> 380m²</li>
+									<li title="Banheiros"><i class="fa fa-bathtub"></i> 03</li>
+									<li title="Quartos"><i class="fa fa-bed"></i> 4</li>
+									<li title="Vagas na garagem"><i class="fa fa-automobile"></i> 01</li>
 								</ul>
 							</div>
 						</div>
@@ -61,21 +61,21 @@
 					<div class="col-lg-12">
 						<div class="hc-inner-text">
 							<div class="hc-text">
-								<h4>IMÓVEL A VENDA</h4>
-								<p>
-									<span class="icon_pin_alt"></span> Local do Imóvel
+								<h4>VENDO EXCELENTE CASA COM PISCINA E CHURRASQUEIRA</h4>
+								<p title="Local do imóvel">
+									<span class="icon_pin_alt"></span> Rua dos Caripunas - até 588/589 - Jurunas - Belém, PA
 								</p>
 								<div class="label">Comprar</div>
 								<h5>
-									$ 65.0<span>/total</span>
+									R$ 450.000<span> /à vista</span>
 								</h5>
 							</div>
 							<div class="hc-widget">
 								<ul>
-									<li><i class="fa fa-object-group"></i> 2, 283</li>
-									<li><i class="fa fa-bathtub"></i> 03</li>
-									<li><i class="fa fa-bed"></i> 05</li>
-									<li><i class="fa fa-automobile"></i> 01</li>
+									<li title="Metros quadrados"><i class="fa fa-object-group"></i> 180m²</li>
+									<li title="Banheiros"><i class="fa fa-bathtub"></i> 05</li>
+									<li title="Quartos"><i class="fa fa-bed"></i> 03</li>
+									<li title="Vagas na garagem"><i class="fa fa-automobile"></i> 02</li>
 								</ul>
 							</div>
 						</div>
@@ -85,27 +85,29 @@
 		</div>
 	</div>
 </section>
-<!-- Hero Section End -->
+<!-- Carrossel End -->
 
-<!-- Search Section Begin -->
+<!-- Filtro por imóvel -->
 <section class="search-section spad">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-7">
 				<div class="section-title">
-					<h4>Where would you rather live?</h4>
+					<h4>Qual imóvel você esta procurando?</h4>
 				</div>
 			</div>
 			<div class="col-lg-5">
 				<div class="change-btn">
 					<div class="cb-item">
-						<label for="cb-rent" class="active"> Comprar <input
-							type="radio" id="cb-rent">
+						<label for="cb-rent" class="active"> 
+							Comprar
+							<input type="radio" id="cb-rent">
 						</label>
 					</div>
 					<div class="cb-item">
-						<label for="cb-sale"> For Sale <input type="radio"
-							id="cb-sale">
+						<label for="cb-sale"> 
+							Alugar 
+							<input type="radio" id="cb-sale">
 						</label>
 					</div>
 				</div>
@@ -114,29 +116,33 @@
 		<div class="search-form-content">
 			<form action="#" class="filter-form">
 				<select class="sm-width">
-					<option value="">Chose The City</option>
+					<option value="">Cidade</option>
+				</select> 
+				<select class="sm-width">
+					<option value="">Bairro</option>
+				</select> 
+				<select class="sm-width">
+					<option value="">Imóvel status</option>
+				</select> 
+				<select class="sm-width">
+					<option value="">Tipo de imóvel</option>
+				</select> 
+				<select class="sm-width">
+					<option value="">Número de quartos</option>
 				</select> <select class="sm-width">
-					<option value="">Location</option>
-				</select> <select class="sm-width">
-					<option value="">Property Status</option>
-				</select> <select class="sm-width">
-					<option value="">Property Type</option>
-				</select> <select class="sm-width">
-					<option value="">No Of Bedrooms</option>
-				</select> <select class="sm-width">
-					<option value="">No Of Bathrooms</option>
+					<option value="">Vagas de garagem</option>
 				</select>
 				<div class="room-size-range-wrap sm-width">
 					<div class="price-text">
-						<label for="roomsizeRange">Size:</label> <input type="text"
-							id="roomsizeRange" readonly>
+						<label for="roomsizeRange">Size:</label> 
+						<input type="text" id="roomsizeRange" readonly>
 					</div>
 					<div id="roomsize-range" class="slider"></div>
 				</div>
 				<div class="price-range-wrap sm-width">
 					<div class="price-text">
-						<label for="priceRange">Price:</label> <input type="text"
-							id="priceRange" readonly>
+						<label for="priceRange">Price:</label> 
+							<input type="text" id="priceRange" readonly>
 					</div>
 					<div id="price-range" class="slider"></div>
 				</div>
