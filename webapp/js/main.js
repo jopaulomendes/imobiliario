@@ -219,10 +219,10 @@
         step: 300,
         values: [300, 1200],
         slide: function (event, ui) {
-            $("#roomsizeRange").val("[" + ui.values[0] + "-" + ui.values[1] + "]" + "sqft");
+            $("#roomsizeRange").val("[" + ui.values[0] + "-" + ui.values[1] + "]" + "");
         }
     });
-    $("#roomsizeRange").val("[" + $("#roomsize-range").slider("values", 0) + "-" + $("#roomsize-range").slider("values", 1) + "]" + "sqft");
+    $("#roomsizeRange").val("[" + $("#roomsize-range").slider("values", 0) + "-" + $("#roomsize-range").slider("values", 1) + "]" + "");
 
     //price range
     $("#price-range").slider({
@@ -235,7 +235,7 @@
             $("#priceRange").val("[ " + ui.values[0] + " - " + ui.values[1] + " ]" + " $");
         }
     });
-    $("#priceRange").val("[ " + $("#price-range").slider("values", 0) + " - " + $("#price-range").slider("values", 1) + " ]" + " $");
+    $("#priceRange").val("[ " + $("#price-range").slider("values", 0) + " - " + $("#price-range").slider("values", 1) + " ]" + " R$");
 
      //Text editor
     $('.texteditor-content').richText();

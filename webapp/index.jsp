@@ -11,7 +11,8 @@
 							<div class="hc-text">
 								<h4>Vende-se casa no Jurunas</h4>
 								<p title="Local do imóvel">
-									<span class="icon_pin_alt"></span> Travessa Honório J. dos Santos
+									<span class="icon_pin_alt"></span> Travessa Honório J. dos
+									Santos
 								</p>
 								<div class="label">Comprar</div>
 								<h5>
@@ -20,10 +21,12 @@
 							</div>
 							<div class="hc-widget">
 								<ul>
-									<li title="Metros quadrados"><i class="fa fa-object-group"></i> 380m²</li>
+									<li title="Metros quadrados"><i class="fa fa-object-group"></i>
+										380m²</li>
 									<li title="Banheiros"><i class="fa fa-bathtub"></i> 05</li>
 									<li title="Quartos"><i class="fa fa-bed"></i> 05</li>
-									<li title="Vagas na garagem"><i class="fa fa-automobile"></i> 01</li>
+									<li title="Vagas na garagem"><i class="fa fa-automobile"></i>
+										01</li>
 								</ul>
 							</div>
 						</div>
@@ -35,9 +38,10 @@
 					<div class="col-lg-12">
 						<div class="hc-inner-text">
 							<div class="hc-text">
-								<h4>Casa de esquina na Marambaia </h4>
+								<h4>Casa de esquina na Marambaia</h4>
 								<p title="Local do imóvel">
-									<span class="icon_pin_alt"></span> Rua Primeiro de Agosto - Marambaia - Belém, PA
+									<span class="icon_pin_alt"></span> Rua Primeiro de Agosto -
+									Marambaia - Belém, PA
 								</p>
 								<div class="label">Comprar</div>
 								<h5>
@@ -46,10 +50,12 @@
 							</div>
 							<div class="hc-widget">
 								<ul>
-									<li title="Metros quadrados"><i class="fa fa-object-group"></i> 380m²</li>
+									<li title="Metros quadrados"><i class="fa fa-object-group"></i>
+										380m²</li>
 									<li title="Banheiros"><i class="fa fa-bathtub"></i> 03</li>
 									<li title="Quartos"><i class="fa fa-bed"></i> 4</li>
-									<li title="Vagas na garagem"><i class="fa fa-automobile"></i> 01</li>
+									<li title="Vagas na garagem"><i class="fa fa-automobile"></i>
+										01</li>
 								</ul>
 							</div>
 						</div>
@@ -63,7 +69,8 @@
 							<div class="hc-text">
 								<h4>VENDO EXCELENTE CASA COM PISCINA E CHURRASQUEIRA</h4>
 								<p title="Local do imóvel">
-									<span class="icon_pin_alt"></span> Rua dos Caripunas - até 588/589 - Jurunas - Belém, PA
+									<span class="icon_pin_alt"></span> Rua dos Caripunas - até
+									588/589 - Jurunas - Belém, PA
 								</p>
 								<div class="label">Comprar</div>
 								<h5>
@@ -72,10 +79,12 @@
 							</div>
 							<div class="hc-widget">
 								<ul>
-									<li title="Metros quadrados"><i class="fa fa-object-group"></i> 180m²</li>
+									<li title="Metros quadrados"><i class="fa fa-object-group"></i>
+										180m²</li>
 									<li title="Banheiros"><i class="fa fa-bathtub"></i> 05</li>
 									<li title="Quartos"><i class="fa fa-bed"></i> 03</li>
-									<li title="Vagas na garagem"><i class="fa fa-automobile"></i> 02</li>
+									<li title="Vagas na garagem"><i class="fa fa-automobile"></i>
+										02</li>
 								</ul>
 							</div>
 						</div>
@@ -99,15 +108,13 @@
 			<div class="col-lg-5">
 				<div class="change-btn">
 					<div class="cb-item">
-						<label for="cb-rent" class="active"> 
-							Comprar
-							<input type="radio" id="cb-rent">
+						<label for="cb-rent" class="active"> Comprar <input
+							type="radio" id="cb-rent">
 						</label>
 					</div>
 					<div class="cb-item">
-						<label for="cb-sale"> 
-							Alugar 
-							<input type="radio" id="cb-sale">
+						<label for="cb-sale"> Alugar <input type="radio"
+							id="cb-sale">
 						</label>
 					</div>
 				</div>
@@ -117,98 +124,110 @@
 			<form action="#" class="filter-form">
 				<select class="sm-width">
 					<option value="">Cidade</option>
-				</select> 
-				<select class="sm-width">
+				</select> <select class="sm-width">
 					<option value="">Bairro</option>
-				</select> 
-				<select class="sm-width">
+				</select> <select class="sm-width">
 					<option value="">Imóvel status</option>
-				</select> 
-				<select class="sm-width">
+					<option value="Novo">Novo</option>
+					<option value="Usado">Usado</option>
+					<option value="Planta">Planta</option>
+				</select> <select class="sm-width">
 					<option value="">Tipo de imóvel</option>
-				</select> 
-				<select class="sm-width">
+				</select> <select class="sm-width">
 					<option value="">Número de quartos</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">Mais de 5</option>
 				</select> <select class="sm-width">
 					<option value="">Vagas de garagem</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">Mais de 5</option>
 				</select>
 				<div class="room-size-range-wrap sm-width">
 					<div class="price-text">
-						<label for="roomsizeRange">Size:</label> 
+						<label for="roomsizeRange">Tamanho m²:</label> 
 						<input type="text" id="roomsizeRange" readonly>
 					</div>
 					<div id="roomsize-range" class="slider"></div>
 				</div>
 				<div class="price-range-wrap sm-width">
 					<div class="price-text">
-						<label for="priceRange">Price:</label> 
-							<input type="text" id="priceRange" readonly>
+						<label for="priceRange">Preço:</label> 
+						<input type="text" id="priceRange" readonly>
 					</div>
 					<div id="price-range" class="slider"></div>
 				</div>
-				<button type="button" class="search-btn sm-width">Search</button>
+				<button type="button" class="search-btn sm-width">Pesquisar</button>
 			</form>
 		</div>
-		<div class="more-option">
-			<div class="accordion" id="accordionExample">
-				<div class="card">
-					<div class="card-heading active">
-						<a data-toggle="collapse" data-target="#collapseOne"> More
-							Search Options </a>
-					</div>
-					<div id="collapseOne" class="collapse"
-						data-parent="#accordionExample">
-						<div class="card-body">
-							<div class="mo-list">
-								<div class="ml-column">
-									<label for="air">Air conditioning <input
-										type="checkbox" id="air"> <span class="checkbox"></span>
-									</label> <label for="lundry">Laundry <input type="checkbox"
-										id="lundry"> <span class="checkbox"></span>
-									</label> <label for="refrigerator">Refrigerator <input
-										type="checkbox" id="refrigerator"> <span
-										class="checkbox"></span>
-									</label> <label for="washer">Washer <input type="checkbox"
-										id="washer"> <span class="checkbox"></span>
-									</label>
-								</div>
-								<div class="ml-column">
-									<label for="barbeque">Barbeque <input type="checkbox"
-										id="barbeque"> <span class="checkbox"></span>
-									</label> <label for="lawn">Lawn <input type="checkbox"
-										id="lawn"> <span class="checkbox"></span>
-									</label> <label for="sauna">Sauna <input type="checkbox"
-										id="sauna"> <span class="checkbox"></span>
-									</label> <label for="wifi">Wifi <input type="checkbox"
-										id="wifi"> <span class="checkbox"></span>
-									</label>
-								</div>
-								<div class="ml-column">
-									<label for="dryer">Dryer <input type="checkbox"
-										id="dryer"> <span class="checkbox"></span>
-									</label> <label for="microwave">Microwave <input
-										type="checkbox" id="microwave"> <span class="checkbox"></span>
-									</label> <label for="pool">Swimming Pool <input type="checkbox"
-										id="pool"> <span class="checkbox"></span>
-									</label> <label for="window">Window Coverings <input
-										type="checkbox" id="window"> <span class="checkbox"></span>
-									</label>
-								</div>
-								<div class="ml-column last-column">
-									<label for="gym">Gym <input type="checkbox" id="gym">
-										<span class="checkbox"></span>
-									</label> <label for="shower">OutdoorShower <input
-										type="checkbox" id="shower"> <span class="checkbox"></span>
-									</label> <label for="tv">Tv Cable <input type="checkbox"
-										id="tv"> <span class="checkbox"></span>
-									</label>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+<!-- 		<div class="more-option"> -->
+<!-- 			<div class="accordion" id="accordionExample"> -->
+<!-- 				<div class="card"> -->
+<!-- 					<div class="card-heading active"> -->
+<!-- 						<a data-toggle="collapse" data-target="#collapseOne">  -->
+<!-- 							Mais opções de pesquisa  -->
+<!-- 						</a> -->
+<!-- 					</div> -->
+<!-- 					<div id="collapseOne" class="collapse" -->
+<!-- 						data-parent="#accordionExample"> -->
+<!-- 						<div class="card-body"> -->
+<!-- 							<div class="mo-list"> -->
+<!-- 								<div class="ml-column"> -->
+<!-- 									<label for="air">Air conditioning <input -->
+<!-- 										type="checkbox" id="air"> <span class="checkbox"></span> -->
+<!-- 									</label> <label for="lundry">Laundry <input type="checkbox" -->
+<!-- 										id="lundry"> <span class="checkbox"></span> -->
+<!-- 									</label> <label for="refrigerator">Refrigerator <input -->
+<!-- 										type="checkbox" id="refrigerator"> <span -->
+<!-- 										class="checkbox"></span> -->
+<!-- 									</label> <label for="washer">Washer <input type="checkbox" -->
+<!-- 										id="washer"> <span class="checkbox"></span> -->
+<!-- 									</label> -->
+<!-- 								</div> -->
+<!-- 								<div class="ml-column"> -->
+<!-- 									<label for="barbeque">Barbeque <input type="checkbox" -->
+<!-- 										id="barbeque"> <span class="checkbox"></span> -->
+<!-- 									</label> <label for="lawn">Lawn <input type="checkbox" -->
+<!-- 										id="lawn"> <span class="checkbox"></span> -->
+<!-- 									</label> <label for="sauna">Sauna <input type="checkbox" -->
+<!-- 										id="sauna"> <span class="checkbox"></span> -->
+<!-- 									</label> <label for="wifi">Wifi <input type="checkbox" -->
+<!-- 										id="wifi"> <span class="checkbox"></span> -->
+<!-- 									</label> -->
+<!-- 								</div> -->
+<!-- 								<div class="ml-column"> -->
+<!-- 									<label for="dryer">Dryer <input type="checkbox" -->
+<!-- 										id="dryer"> <span class="checkbox"></span> -->
+<!-- 									</label> <label for="microwave">Microwave <input -->
+<!-- 										type="checkbox" id="microwave"> <span class="checkbox"></span> -->
+<!-- 									</label> <label for="pool">Swimming Pool <input type="checkbox" -->
+<!-- 										id="pool"> <span class="checkbox"></span> -->
+<!-- 									</label> <label for="window">Window Coverings <input -->
+<!-- 										type="checkbox" id="window"> <span class="checkbox"></span> -->
+<!-- 									</label> -->
+<!-- 								</div> -->
+<!-- 								<div class="ml-column last-column"> -->
+<!-- 									<label for="gym">Gym <input type="checkbox" id="gym"> -->
+<!-- 										<span class="checkbox"></span> -->
+<!-- 									</label> <label for="shower">OutdoorShower <input -->
+<!-- 										type="checkbox" id="shower"> <span class="checkbox"></span> -->
+<!-- 									</label> <label for="tv">Tv Cable <input type="checkbox" -->
+<!-- 										id="tv"> <span class="checkbox"></span> -->
+<!-- 									</label> -->
+<!-- 								</div> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
 	</div>
 </section>
 <!-- Search Section End -->
