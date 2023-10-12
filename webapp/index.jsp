@@ -267,7 +267,7 @@
 						<div class="label">Alugar</div>
 					</div>
 					<div class="pi-text">
-						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+						<a title="Enviar mensagem" href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
 						<div class="pt-price">
 							R$ 700,00<span>/mês</span>
 						</div>
@@ -309,7 +309,7 @@
 						<div class="label c-red">Comprar</div>
 					</div>
 					<div class="pi-text">
-						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+						<a title="Enviar mensagem" href="" data-toggle="modal" data-target="#modalMensagemImovel" class="heart-icon"><span class="icon_heart_alt"></span></a>
 						<div class="pt-price">R$ 300.000</div>
 						<h5>
 							<a href="#">Casa de 2 pavimentos disponível para venda</a>
@@ -751,6 +751,27 @@
 <!-- Contact Section End -->
 
 <jsp:include page="rodape.jsp"></jsp:include>
+
+<!-- Modal Mensagem Imóvel -->
+<div class="modal fade" id="modalMensagemImovel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Script para mostrar div do slider de aluguel ou compra -->
 <script type="text/javascript">
