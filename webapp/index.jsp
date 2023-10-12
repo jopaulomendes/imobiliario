@@ -753,20 +753,28 @@
 <jsp:include page="rodape.jsp"></jsp:include>
 
 <!-- Modal Mensagem Imóvel -->
-<div class="modal fade" id="modalMensagemImovel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+<div class="modal fade" data-backdrop="static" id="modalMensagemImovel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Enviar Mensagem</h5>
         <button id="btn-cancelar-dismiss" type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <form action="#" class="cc-form">
+            <div class="group-input">
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Email">
+                <input id="telefone" type="text" placeholder="Telefone">
+            </div>
+            <textarea placeholder="Comentário"></textarea>
+            <button type="submit" class="site-btn">Enviar</button>
+        </form>
       </div>
       <div class="modal-footer">
-        <button id="btn-cancelar" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button id="btn-cancelar" type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
         <button id="btn-enviar" type="button" class="btn btn-info">Enviar mensagem</button>
       </div>
     </div>
