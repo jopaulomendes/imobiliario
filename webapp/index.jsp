@@ -259,37 +259,44 @@
 				</div>
 			</div>
 		</div>
+		<!-- início dos cards com os  imóveis-->
 		<div class="row property-filter">
 			<div class="col-lg-4 col-md-6 mix all house">
 				<div class="property-item">
 					<div class="pi-pic set-bg" data-setbg="img/property/property-1.jpg">
-						<div class="label">Comprar</div>
+						<div class="label">Alugar</div>
 					</div>
 					<div class="pi-text">
 						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
 						<div class="pt-price">
-							R$ 300,00<span>/total</span>
+							R$ 700,00<span>/mês</span>
 						</div>
 						<h5>
-							<a href="#">Home in Merrick Way</a>
+							<a href="#">Kitnet na Pedreira</a>
 						</h5>
 						<p>
-							<span class="icon_pin_alt"></span> 3 Middle Winchendon Rd,
-							Rindge, NH 03461
+							<span class="icon_pin_alt"></span> Passagem E - Pedreira - Belém, PA
 						</p>
 						<ul>
-							<li><i class="fa fa-object-group"></i> 2, 283</li>
-							<li><i class="fa fa-bathtub"></i> 03</li>
-							<li><i class="fa fa-bed"></i> 05</li>
-							<li><i class="fa fa-automobile"></i> 01</li>
+							<li title="Área útil"><i class="fa fa-object-group"></i> 160m²</li>
+							<li title="Banheiros"><i class="fa fa-bathtub"></i> 03</li>
+						    <li title="Quartos"><i class="fa fa-bed"></i> 05</li>
+							<li title="Vagas"><i class="fa fa-automobile"></i> 00</li>
 						</ul>
 						<div class="pi-agent">
 							<div class="pa-item">
 								<div class="pa-info">
 									<img src="img/property/posted-by/pb-1.jpg" alt="">
-									<h6>Ashton Kutcher</h6>
+									<h6>Nome do corretor</h6>
 								</div>
-								<div class="pa-text">123-455-688</div>
+								<div class="pa-text">
+									<a class="text-dark"
+									   target="_blank" 
+									   title="Clique aqui pra iniciar uma conversa"
+									   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+									   (91) 00000-0000
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -302,166 +309,40 @@
 					</div>
 					<div class="pi-text">
 						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
-						<div class="pt-price">R$ 300,00</div>
+						<div class="pt-price">R$ 300.000</div>
 						<h5>
-							<a href="#">Unimont Aurum</a>
+							<a href="#">Casa de 2 pavimentos disponível para venda</a>
 						</h5>
 						<p>
-							<span class="icon_pin_alt"></span> Gut No.102, Opp. HP Petrol
-							Pump, Karjat
+							<span class="icon_pin_alt"></span> Passagem Alegre - nº 66, entre Marquês de Herval e Dr. Freitas - Pedreira
 						</p>
 						<ul>
-							<li><i class="fa fa-object-group"></i> 2, 283</li>
-							<li><i class="fa fa-bathtub"></i> 03</li>
-							<li><i class="fa fa-bed"></i> 05</li>
-							<li><i class="fa fa-automobile"></i> 01</li>
+							<li title="Área útil"><i class="fa fa-object-group"></i> 160m²</li>
+							<li title="Banheiros"><i class="fa fa-bathtub"></i> 03</li>
+						    <li title="Quartos"><i class="fa fa-bed"></i> 05</li>
+							<li title="Vagas"><i class="fa fa-automobile"></i> 00</li>
 						</ul>
 						<div class="pi-agent">
 							<div class="pa-item">
 								<div class="pa-info">
 									<img src="img/property/posted-by/pb-1.jpg" alt="">
-									<h6>Ashton Kutcher</h6>
+									<h6>Nome do corretor</h6>
 								</div>
-								<div class="pa-text">123-455-688</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 mix all apart office">
-				<div class="property-item">
-					<div class="pi-pic set-bg" data-setbg="img/property/property-2.jpg">
-						<div class="label c-red">Comprar</div>
-					</div>
-					<div class="pi-text">
-						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
-						<div class="pt-price">R$ 300,00</div>
-						<h5>
-							<a href="#">Vrindavan Flora</a>
-						</h5>
-						<p>
-							<span class="icon_pin_alt"></span> No. 15, 16, 17-1A And 17-2,
-							Rasayani, Rasayani
-						</p>
-						<ul>
-							<li><i class="fa fa-object-group"></i> 2, 283</li>
-							<li><i class="fa fa-bathtub"></i> 03</li>
-							<li><i class="fa fa-bed"></i> 05</li>
-							<li><i class="fa fa-automobile"></i> 01</li>
-						</ul>
-						<div class="pi-agent">
-							<div class="pa-item">
-								<div class="pa-info">
-									<img src="img/property/posted-by/pb-1.jpg" alt="">
-									<h6>Ashton Kutcher</h6>
+								<div class="pa-text">
+									<a class="text-dark"
+									   target="_blank" 
+									   title="Clique aqui pra iniciar uma conversa"
+									   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+									   (91) 00000-0000
+									</a>
 								</div>
-								<div class="pa-text">123-455-688</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 mix all hotel restaruent">
-				<div class="property-item">
-					<div class="pi-pic set-bg" data-setbg="img/property/property-4.jpg">
-						<div class="label c-red">Comprar</div>
-					</div>
-					<div class="pi-text">
-						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
-						<div class="pt-price">R$ 300,00</div>
-						<h5>
-							<a href="#">Shramik Vaibhav</a>
-						</h5>
-						<p>
-							<span class="icon_pin_alt"></span> 12 Pt at Shedung, Panvel,
-							Raigarh, Navi Mumbai
-						</p>
-						<ul>
-							<li><i class="fa fa-object-group"></i> 2, 283</li>
-							<li><i class="fa fa-bathtub"></i> 03</li>
-							<li><i class="fa fa-bed"></i> 05</li>
-							<li><i class="fa fa-automobile"></i> 01</li>
-						</ul>
-						<div class="pi-agent">
-							<div class="pa-item">
-								<div class="pa-info">
-									<img src="img/property/posted-by/pb-1.jpg" alt="">
-									<h6>Ashton Kutcher</h6>
-								</div>
-								<div class="pa-text">123-455-688</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 mix all office hotel">
-				<div class="property-item">
-					<div class="pi-pic set-bg" data-setbg="img/property/property-5.jpg">
-						<div class="label c-magenta">Comprar</div>
-					</div>
-					<div class="pi-text">
-						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
-						<div class="pt-price">R$ 300,00</div>
-						<h5>
-							<a href="#">Poddar Wondercity</a>
-						</h5>
-						<p>
-							<span class="icon_pin_alt"></span> Badlapur East, Beyond Thane
-						</p>
-						<ul>
-							<li><i class="fa fa-object-group"></i> 2, 283</li>
-							<li><i class="fa fa-bathtub"></i> 03</li>
-							<li><i class="fa fa-bed"></i> 05</li>
-							<li><i class="fa fa-automobile"></i> 01</li>
-						</ul>
-						<div class="pi-agent">
-							<div class="pa-item">
-								<div class="pa-info">
-									<img src="img/property/posted-by/pb-1.jpg" alt="">
-									<h6>Ashton Kutcher</h6>
-								</div>
-								<div class="pa-text">123-455-688</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 mix house apart office">
-				<div class="property-item">
-					<div class="pi-pic set-bg" data-setbg="img/property/property-6.jpg">
-						<div class="label">Comprar</div>
-					</div>
-					<div class="pi-text">
-						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
-						<div class="pt-price">
-							R$ 300,00<span>/total</span>
-						</div>
-						<h5>
-							<a href="#">GoldCrest Residency</a>
-						</h5>
-						<p>
-							<span class="icon_pin_alt"></span> No.7, Sector- 11, Ghansoli,
-							Mumbai, Navi Mumbai
-						</p>
-						<ul>
-							<li><i class="fa fa-object-group"></i> 2, 283</li>
-							<li><i class="fa fa-bathtub"></i> 03</li>
-							<li><i class="fa fa-bed"></i> 05</li>
-							<li><i class="fa fa-automobile"></i> 01</li>
-						</ul>
-						<div class="pi-agent">
-							<div class="pa-item">
-								<div class="pa-info">
-									<img src="img/property/posted-by/pb-1.jpg" alt="">
-									<h6>Ashton Kutcher</h6>
-								</div>
-								<div class="pa-text">123-455-688</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- fim dos cards com os  imóveis-->
 	</div>
 </section>
 <!-- Property Section End -->
