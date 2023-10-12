@@ -249,7 +249,7 @@
 			<div class="col-lg-7">
 				<div class="property-controls">
 					<ul>
-						<li data-filter="all">Todos</li>
+						<li id="listarTodos" data-filter="all">Todos</li>
 						<li data-filter="Apartamentos">Apartamentos</li>
 						<li data-filter="Casas">Casas</li>
 						<li data-filter="Escritorios">Escritórios</li>
@@ -267,7 +267,7 @@
 						<div class="label">Alugar</div>
 					</div>
 					<div class="pi-text">
-						<a title="Enviar mensagem" href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+						<a title="Enviar mensagem" href="" data-toggle="modal" data-target="#modalMensagemImovel" class="heart-icon"><span class="icon_heart_alt"></span></a>
 						<div class="pt-price">
 							R$ 700,00<span>/mês</span>
 						</div>
@@ -758,7 +758,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button id="btn-cancelar-dismiss" type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -766,8 +766,8 @@
         ...
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button id="btn-cancelar" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button id="btn-enviar" type="button" class="btn btn-info">Enviar mensagem</button>
       </div>
     </div>
   </div>
@@ -789,6 +789,20 @@
 			$('#priceAluguel').show();
 		})
 	})
+</script>
+
+<!-- Listar todos os imóveis após abrirt modal -->
+<script type="text/javascript">
+	$('#btn-cancelar-dismiss').click(function (event) {
+		$('#listarTodos').click();
+	})
+	$('#btn-cancelar').click(function (event) {
+		$('#listarTodos').click();
+	})
+	$('#btn-enviar').click(function (event) {
+		$('#listarTodos').click();
+	})
+	
 </script>
 
 
