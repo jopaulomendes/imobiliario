@@ -4303,3 +4303,15 @@ li .richText-btn[data-command=toggleCode] {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.cor-verde-template {
+	color: #00c89e;
+}
+
+.cor-verde-template-link {
+	color: #00c89e;
+}
+
+.cor-verde-template-link:hover {
+	color: #00b38d;
+}

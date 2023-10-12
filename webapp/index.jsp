@@ -290,10 +290,11 @@
 									<h6>Nome do corretor</h6>
 								</div>
 								<div class="pa-text">
-									<a class="text-dark"
+									<a class="cor-verde-template-link"
 									   target="_blank" 
 									   title="Clique aqui pra iniciar uma conversa"
 									   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+									   <i class="fa fa-whatsapp"></i>
 									   (91) 00000-0000
 									</a>
 								</div>
@@ -329,10 +330,11 @@
 									<h6>Nome do corretor</h6>
 								</div>
 								<div class="pa-text">
-									<a class="text-dark"
+									<a class="cor-verde-template-link"
 									   target="_blank" 
 									   title="Clique aqui pra iniciar uma conversa"
 									   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+									   <i class="fa fa-whatsapp"></i>
 									   (91) 00000-0000
 									</a>
 								</div>
