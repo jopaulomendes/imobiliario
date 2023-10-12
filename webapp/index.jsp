@@ -770,12 +770,8 @@
                 <input id="telefone" type="text" placeholder="Telefone">
             </div>
             <textarea placeholder="Comentário"></textarea>
-            <button type="submit" class="site-btn">Enviar</button>
+            <button id="btn-enviar" type="submit" class="site-btn">Enviar</button>
         </form>
-      </div>
-      <div class="modal-footer">
-        <button id="btn-cancelar" type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-        <button id="btn-enviar" type="button" class="btn btn-info">Enviar mensagem</button>
       </div>
     </div>
   </div>
@@ -804,13 +800,13 @@
 	$('#btn-cancelar-dismiss').click(function (event) {
 		$('#listarTodos').click();
 	})
-	$('#btn-cancelar').click(function (event) {
-		$('#listarTodos').click();
-	})
 	$('#btn-enviar').click(function (event) {
 		$('#listarTodos').click();
 	})
 	
 </script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+<script src="js/mascara.js"></script>
 
