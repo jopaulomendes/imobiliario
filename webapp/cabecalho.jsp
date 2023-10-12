@@ -52,10 +52,14 @@
 		<div class="om-widget">
 			<ul>
 				<li><i class="icon_mail_alt"></i> <%=email%></li>
-				<li><i class="fa fa-whatsapp"></i> <a class="text-dark"
-					target="_blank" title="Clique aqui pra iniciar uma conversa"
-					href="https://api.whatsapp.com/send?1=pt_BR&phone=<%=whatsappLink%>">
-						<%=whatsapp%></a></li>
+				<li><i class="fa fa-whatsapp"></i> 
+					<a class="text-dark"
+						target="_blank" 
+						title="Clique aqui pra iniciar uma conversa"
+						href="https://api.whatsapp.com/send?1=pt_BR&phone=<%=whatsappLink%>">
+						<%=whatsapp%>
+					</a>
+				</li>
 				<li><i class="fa fa-mobile-phone"></i> <%=fixo%></li>
 			</ul>
 			<a href="imoveis.jsp" class="hw-btn">Ver Imóveis</a>
