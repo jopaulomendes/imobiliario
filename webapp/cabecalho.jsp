@@ -108,7 +108,7 @@
 					<div class="col-lg-9">
 						<nav class="nav-menu">
 							<ul>
-								<li class="active"><a href="./index.html">Home</a></li>
+								<li class="active"><a href="./index.jsp">Home</a></li>
 								<li><a href="imoveis.jsp">Imóveis</a></li>
 								<li><a href="corretores.jsp">Corretores</a></li>
 								<li><a href="sobre.jsp">Sobre</a></li>

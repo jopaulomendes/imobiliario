@@ -8,7 +8,7 @@
                     <div class="breadcrumb-text">
                         <h4>Our Agents</h4>
                         <div class="bt-option">
-                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                            <a href="./index.jsp"><i class="fa fa-home"></i> Home</a>
                             <span>Agents</span>
                         </div>
                     </div>

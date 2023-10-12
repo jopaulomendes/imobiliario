@@ -9,13 +9,13 @@
 					<div class="col-lg-12">
 						<div class="hc-inner-text">
 							<div class="hc-text">
-								<h4>Balaji Symphony</h4>
+								<h4>IMÓVEL A VENDA</h4>
 								<p>
-									<span class="icon_pin_alt"></span> Panvel, Navi Mumbai
+									<span class="icon_pin_alt"></span> Local do Imóvel
 								</p>
-								<div class="label">For Rent</div>
+								<div class="label">Comprar</div>
 								<h5>
-									$ 65.0<span>/month</span>
+									$ 65.0<span>/total</span>
 								</h5>
 							</div>
 							<div class="hc-widget">
@@ -35,13 +35,13 @@
 					<div class="col-lg-12">
 						<div class="hc-inner-text">
 							<div class="hc-text">
-								<h4>Balaji Symphony</h4>
+								<h4>IMÓVEL A VENDA</h4>
 								<p>
-									<span class="icon_pin_alt"></span> Panvel, Navi Mumbai
+									<span class="icon_pin_alt"></span> Local do Imóvel
 								</p>
-								<div class="label">For Rent</div>
+								<div class="label">Comprar</div>
 								<h5>
-									$ 65.0<span>/month</span>
+									$ 65.0<span>/total</span>
 								</h5>
 							</div>
 							<div class="hc-widget">
@@ -61,13 +61,13 @@
 					<div class="col-lg-12">
 						<div class="hc-inner-text">
 							<div class="hc-text">
-								<h4>Balaji Symphony</h4>
+								<h4>IMÓVEL A VENDA</h4>
 								<p>
-									<span class="icon_pin_alt"></span> Panvel, Navi Mumbai
+									<span class="icon_pin_alt"></span> Local do Imóvel
 								</p>
-								<div class="label">For Rent</div>
+								<div class="label">Comprar</div>
 								<h5>
-									$ 65.0<span>/month</span>
+									$ 65.0<span>/total</span>
 								</h5>
 							</div>
 							<div class="hc-widget">
@@ -99,7 +99,7 @@
 			<div class="col-lg-5">
 				<div class="change-btn">
 					<div class="cb-item">
-						<label for="cb-rent" class="active"> For Rent <input
+						<label for="cb-rent" class="active"> Comprar <input
 							type="radio" id="cb-rent">
 						</label>
 					</div>
@@ -233,12 +233,12 @@
 			<div class="col-lg-4 col-md-6 mix all house">
 				<div class="property-item">
 					<div class="pi-pic set-bg" data-setbg="img/property/property-1.jpg">
-						<div class="label">For rent</div>
+						<div class="label">Comprar</div>
 					</div>
 					<div class="pi-text">
 						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
 						<div class="pt-price">
-							$ 289.0<span>/month</span>
+							R$ 300,00<span>/total</span>
 						</div>
 						<h5>
 							<a href="#">Home in Merrick Way</a>
@@ -268,11 +268,11 @@
 			<div class="col-lg-4 col-md-6 mix all restaurent hotel">
 				<div class="property-item">
 					<div class="pi-pic set-bg" data-setbg="img/property/property-2.jpg">
-						<div class="label c-red">For rent</div>
+						<div class="label c-red">Comprar</div>
 					</div>
 					<div class="pi-text">
 						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
-						<div class="pt-price">$ 289.0</div>
+						<div class="pt-price">R$ 300,00</div>
 						<h5>
 							<a href="#">Unimont Aurum</a>
 						</h5>
@@ -301,11 +301,11 @@
 			<div class="col-lg-4 col-md-6 mix all apart office">
 				<div class="property-item">
 					<div class="pi-pic set-bg" data-setbg="img/property/property-2.jpg">
-						<div class="label c-red">For rent</div>
+						<div class="label c-red">Comprar</div>
 					</div>
 					<div class="pi-text">
 						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
-						<div class="pt-price">$ 289.0</div>
+						<div class="pt-price">R$ 300,00</div>
 						<h5>
 							<a href="#">Vrindavan Flora</a>
 						</h5>
@@ -334,11 +334,11 @@
 			<div class="col-lg-4 col-md-6 mix all hotel restaruent">
 				<div class="property-item">
 					<div class="pi-pic set-bg" data-setbg="img/property/property-4.jpg">
-						<div class="label c-red">For rent</div>
+						<div class="label c-red">Comprar</div>
 					</div>
 					<div class="pi-text">
 						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
-						<div class="pt-price">$ 289.0</div>
+						<div class="pt-price">R$ 300,00</div>
 						<h5>
 							<a href="#">Shramik Vaibhav</a>
 						</h5>
@@ -367,11 +367,11 @@
 			<div class="col-lg-4 col-md-6 mix all office hotel">
 				<div class="property-item">
 					<div class="pi-pic set-bg" data-setbg="img/property/property-5.jpg">
-						<div class="label c-magenta">For rent</div>
+						<div class="label c-magenta">Comprar</div>
 					</div>
 					<div class="pi-text">
 						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
-						<div class="pt-price">$ 289.0</div>
+						<div class="pt-price">R$ 300,00</div>
 						<h5>
 							<a href="#">Poddar Wondercity</a>
 						</h5>
@@ -399,12 +399,12 @@
 			<div class="col-lg-4 col-md-6 mix house apart office">
 				<div class="property-item">
 					<div class="pi-pic set-bg" data-setbg="img/property/property-6.jpg">
-						<div class="label">For rent</div>
+						<div class="label">Comprar</div>
 					</div>
 					<div class="pi-text">
 						<a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
 						<div class="pt-price">
-							$ 289.0<span>/month</span>
+							R$ 300,00<span>/total</span>
 						</div>
 						<h5>
 							<a href="#">GoldCrest Residency</a>
@@ -525,9 +525,9 @@
 								<span class="icon_pin_alt"></span> 3 Middle Winchendon Rd,
 								Rindge, NH 03461
 							</p>
-							<div class="label">For Rent</div>
+							<div class="label">Comprar</div>
 							<h5>
-								$ 289.0<span>/month</span>
+								R$ 300,00<span>/total</span>
 							</h5>
 							<ul>
 								<li><i class="fa fa-object-group"></i> 2, 283</li>
@@ -545,9 +545,9 @@
 								<span class="icon_pin_alt"></span> 3 Middle Winchendon Rd,
 								Rindge, NH 03461
 							</p>
-							<div class="label">For Rent</div>
+							<div class="label">Comprar</div>
 							<h5>
-								$ 289.0<span>/month</span>
+								R$ 300,00<span>/total</span>
 							</h5>
 							<ul>
 								<li><i class="fa fa-object-group"></i> 2, 283</li>

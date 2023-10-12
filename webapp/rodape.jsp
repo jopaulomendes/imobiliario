@@ -16,8 +16,7 @@
 					<div class="fs-social">
 						<a href="#"><i class="fa fa-instagram"></i></a> 
 						<a href="#"><i class="fa fa-facebook"></i></a> 
-						<a href="#"><i class="fa fa-whatsapp"></i></a>
-						<a 	target="_blank" 
+						<a target="_blank" 
 							href="https://api.whatsapp.com/send?1=pt_BR&phone=<%=whatsappLink%>">
 							<i class="fa fa-whatsapp"></i>
 						</a>
