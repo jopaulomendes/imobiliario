@@ -79,12 +79,10 @@
 							</div>
 							<div class="hc-widget">
 								<ul>
-									<li title="Metros quadrados"><i class="fa fa-object-group"></i>
-										180m²</li>
+									<li title="Metros quadrados"><i class="fa fa-object-group"></i>180m²</li>
 									<li title="Banheiros"><i class="fa fa-bathtub"></i> 05</li>
 									<li title="Quartos"><i class="fa fa-bed"></i> 03</li>
-									<li title="Vagas na garagem"><i class="fa fa-automobile"></i>
-										02</li>
+									<li title="Vagas na garagem"><i class="fa fa-automobile"></i>02</li>
 								</ul>
 							</div>
 						</div>
@@ -157,12 +155,19 @@
 					</div>
 					<div id="roomsize-range" class="slider"></div>
 				</div>
-				<div class="price-range-wrap sm-width">
+				<div id="priceCompra" class="price-range-wrap sm-width">
 					<div class="price-text">
 						<label for="priceRange">Preço:</label> 
 						<input type="text" id="priceRange" readonly>
 					</div>
 					<div id="price-range" class="slider"></div>
+				</div>
+				<div id="priceAluguel" class="price-range-wrap sm-width">
+					<div class="price-text">
+						<label for="priceRange">Preço:</label> 
+						<input type="text" id="priceRangeAluguel" readonly>
+					</div>
+					<div id="price-range-aluguel" class="slider"></div>
 				</div>
 				<button type="button" class="search-btn sm-width">Pesquisar</button>
 			</form>
@@ -238,18 +243,18 @@
 		<div class="row">
 			<div class="col-lg-5">
 				<div class="section-title">
-					<h4>Latest PROPERTY</h4>
+					<h4>ÚLTIMOS IMÓVEIS</h4>
 				</div>
 			</div>
 			<div class="col-lg-7">
 				<div class="property-controls">
 					<ul>
-						<li data-filter="all">All</li>
-						<li data-filter=".apart">Apartment</li>
-						<li data-filter=".house">House</li>
-						<li data-filter=".office">Office</li>
-						<li data-filter=".hotel">Hotel</li>
-						<li data-filter=".restaurent">Restaurent</li>
+						<li data-filter="all">Todos</li>
+						<li data-filter="Apartamentos">Apartamentos</li>
+						<li data-filter="Casas">Casas</li>
+						<li data-filter="Escritorios">Escritórios</li>
+						<li data-filter="Lotes">Lotes</li>
+						<li data-filter="Sitios">Sítios</li>
 					</ul>
 				</div>
 			</div>
@@ -863,5 +868,23 @@
 <!-- Contact Section End -->
 
 <jsp:include page="rodape.jsp"></jsp:include>
+
+<!-- Script para mostrar div do slider de aluguel ou compra -->
+<script type="text/javascript">
+	$(document).ready(function () {
+		$('#priceCompra').show();
+		$('#priceAluguel').hide();
+		
+		$('#cb-rent').click(function (event) {
+			$('#priceCompra').show();
+			$('#priceAluguel').hide();
+		})
+		
+		$('#cb-sale').click(function (event) {
+			$('#priceCompra').hide();
+			$('#priceAluguel').show();
+		})
+	})
+</script>
 
 
