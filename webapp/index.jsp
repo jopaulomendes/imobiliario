@@ -357,7 +357,7 @@
 			<div class="col-lg-8">
 				<div class="chooseus-text">
 					<div class="section-title">
-						<h4>Why choose us</h4>
+						<h4>Invista no seu futuro</h4>
 					</div>
 					<p>Lorem Ipsum has been the industryâ€™s standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of
@@ -369,7 +369,7 @@
 							<img src="img/chooseus/chooseus-icon-1.png" alt="">
 						</div>
 						<div class="cf-text">
-							<h5>Find your future home</h5>
+							<h5>Os melhores imóveis</h5>
 							<p>We help you find a new home by offering a smart real
 								estate.</p>
 						</div>
@@ -379,7 +379,7 @@
 							<img src="img/chooseus/chooseus-icon-2.png" alt="">
 						</div>
 						<div class="cf-text">
-							<h5>Buy or rent homes</h5>
+							<h5>Corretores especializados</h5>
 							<p>Millions of houses and apartments in your favourite cities</p>
 						</div>
 					</div>
@@ -388,7 +388,7 @@
 							<img src="img/chooseus/chooseus-icon-3.png" alt="">
 						</div>
 						<div class="cf-text">
-							<h5>Experienced agents</h5>
+							<h5>Sua compra facilitada</h5>
 							<p>Find an agent who knows your market best</p>
 						</div>
 					</div>
@@ -397,7 +397,7 @@
 							<img src="img/chooseus/chooseus-icon-4.png" alt="">
 						</div>
 						<div class="cf-text">
-							<h5>List your own property</h5>
+							<h5>Melhores localizaçãoes</h5>
 							<p>Sign up now and sell or rent your own properties</p>
 						</div>
 					</div>
@@ -415,61 +415,103 @@
 			<div class="col-lg-4 p-0">
 				<div class="feature-property-left">
 					<div class="section-title">
-						<h4>Feature PROPERTY</h4>
+						<h4>Recurso PROPRIEDADE</h4>
 					</div>
 					<ul>
-						<li>Apartment</li>
-						<li>House</li>
-						<li>Office</li>
-						<li>Hotel</li>
-						<li>Villa</li>
-						<li>Restaurent</li>
+						<li>Apartamento</li>
+						<li>Casa</li>
+						<li>Escritório</li>
+						<li>Lotes</li>
+						<li>Sítio</li>
+						<li>Temporada</li>
 					</ul>
-					<a href="#">View all property</a>
+					<a href="imoveis.jsp">Ver todos os imóveis</a>
 				</div>
 			</div>
 			<div class="col-lg-8 p-0">
 				<div class="fp-slider owl-carousel">
+<!-- 					início do carrosel -->
 					<div class="fp-item set-bg"
 						data-setbg="img/feature-property/fp-1.jpg">
 						<div class="fp-text">
-							<h5 class="title">Home in Merrick Way</h5>
+							<h5 class="title">Casa, 160m², 3 quartos sendo 2 suítes</h5>
 							<p>
-								<span class="icon_pin_alt"></span> 3 Middle Winchendon Rd,
-								Rindge, NH 03461
+								<span class="icon_pin_alt"></span> 
+								Pssagem Alegre - nº 66, entre Marquês de Herval e Dr. Freitas - Pedreira
 							</p>
 							<div class="label">Comprar</div>
 							<h5>
 								R$ 300,00<span>/total</span>
 							</h5>
 							<ul>
-								<li><i class="fa fa-object-group"></i> 2, 283</li>
-								<li><i class="fa fa-bathtub"></i> 03</li>
-								<li><i class="fa fa-bed"></i> 05</li>
-								<li><i class="fa fa-automobile"></i> 01</li>
+								<li title="Área útil"><i class="fa fa-object-group"></i> 160m²</li>
+							<li title="Banheiros"><i class="fa fa-bathtub"></i> 03</li>
+						    <li title="Quartos"><i class="fa fa-bed"></i> 05</li>
+							<li title="Vagas"><i class="fa fa-automobile"></i> 00</li>
 							</ul>
 						</div>
 					</div>
 					<div class="fp-item set-bg"
 						data-setbg="img/feature-property/fp-2.jpg">
 						<div class="fp-text">
-							<h5 class="title">Home in Merrick Way</h5>
+							<h5 class="title">CASA A VENDA NA PEDREIRA BEM LOCALIZADA</h5>
 							<p>
-								<span class="icon_pin_alt"></span> 3 Middle Winchendon Rd,
-								Rindge, NH 03461
+								<span class="icon_pin_alt"></span> 
+								Pedreira na tv angustura 
 							</p>
 							<div class="label">Comprar</div>
 							<h5>
 								R$ 300,00<span>/total</span>
 							</h5>
 							<ul>
-								<li><i class="fa fa-object-group"></i> 2, 283</li>
-								<li><i class="fa fa-bathtub"></i> 03</li>
-								<li><i class="fa fa-bed"></i> 05</li>
-								<li><i class="fa fa-automobile"></i> 01</li>
+								<li title="Área útil"><i class="fa fa-object-group"></i> 160m²</li>
+								<li title="Banheiros"><i class="fa fa-bathtub"></i> 03</li>
+							    <li title="Quartos"><i class="fa fa-bed"></i> 05</li>
+								<li title="Vagas"><i class="fa fa-automobile"></i> 00</li>
 							</ul>
 						</div>
 					</div>
+					<div class="fp-item set-bg"
+						data-setbg="img/feature-property/fp-1.jpg">
+						<div class="fp-text">
+							<h5 class="title">Casa para venda com 100 metros quadrados </h5>
+							<p>
+								<span class="icon_pin_alt"></span>
+								Avenida Pedro Miranda - até 484/485
+							</p>
+							<div class="label">Comprar</div>
+							<h5>
+								R$ 300,00<span>/total</span>
+							</h5>
+							<ul>
+								<li title="Área útil"><i class="fa fa-object-group"></i> 160m²</li>
+								<li title="Banheiros"><i class="fa fa-bathtub"></i> 03</li>
+							    <li title="Quartos"><i class="fa fa-bed"></i> 05</li>
+								<li title="Vagas"><i class="fa fa-automobile"></i> 00</li>
+							</ul>
+						</div>
+					</div>
+					<div class="fp-item set-bg"
+						data-setbg="img/feature-property/fp-1.jpg">
+						<div class="fp-text">
+							<h5 class="title">Casa de esquina na Marambaia </h5>
+							<p>
+								<span class="icon_pin_alt"></span>
+								Rua Primeiro de Agosto
+							</p>
+							<div class="label">Comprar</div>
+							<h5>
+								R$ 300,00<span>/total</span>
+							</h5>
+							<ul>
+								<li title="Área útil"><i class="fa fa-object-group"></i> 160m²</li>
+							<li title="Banheiros"><i class="fa fa-bathtub"></i> 03</li>
+							    <li title="Quartos"><i class="fa fa-bed"></i> 05</li>
+								<li title="Vagas"><i class="fa fa-automobile"></i> 00</li>
+							</ul>
+						</div>
+					</div>
+<!-- 					Final do carrosel -->
 				</div>
 			</div>
 		</div>
@@ -483,12 +525,12 @@
 		<div class="row">
 			<div class="col-lg-8 col-md-8">
 				<div class="section-title">
-					<h4>Latest Property</h4>
+					<h4>Nosso time</h4>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4">
 				<div class="team-btn">
-					<a href="#"><i class="fa fa-user"></i> ALL counselor</a>
+					<a href="#"><i class="fa fa-user"></i> Corretores destaques</a>
 				</div>
 			</div>
 		</div>
@@ -497,8 +539,16 @@
 				<div class="ts-item">
 					<div class="ts-text">
 						<img src="img/team/team-1.jpg" alt="">
-						<h5>Ashton Kutcher</h5>
-						<span>123-455-688</span>
+						<h5>Juca Bala</h5>
+						<span>
+							<a class="text-white"
+							   target="_blank" 
+							   title="Clique aqui pra iniciar uma conversa"
+							   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+							   <i class="fa fa-whatsapp"></i>
+							   (91) 00000-0000
+							</a>
+						</span>
 						<p>Ipsum dolor amet, consectetur adipiscing elit, eiusmod
 							tempor incididunt lorem.</p>
 						<div class="ts-social">
@@ -513,8 +563,16 @@
 				<div class="ts-item">
 					<div class="ts-text">
 						<img src="img/team/team-2.jpg" alt="">
-						<h5>Ashton Kutcher</h5>
-						<span>123-455-688</span>
+						<h5>Pedro de Lara</h5>
+						<span>
+							<a class="text-white"
+							   target="_blank" 
+							   title="Clique aqui pra iniciar uma conversa"
+							   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+							   <i class="fa fa-whatsapp"></i>
+							   (91) 00000-0000
+							</a>
+						</span>
 						<p>Ipsum dolor amet, consectetur adipiscing elit, eiusmod
 							tempor incididunt lorem.</p>
 						<div class="ts-social">
@@ -529,8 +587,16 @@
 				<div class="ts-item">
 					<div class="ts-text">
 						<img src="img/team/team-3.jpg" alt="">
-						<h5>Ashton Kutcher</h5>
-						<span>123-455-688</span>
+						<h5>Nelsinho Rodrigues</h5>
+						<span>
+							<a class="text-white"
+							   target="_blank" 
+							   title="Clique aqui pra iniciar uma conversa"
+							   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+							   <i class="fa fa-whatsapp"></i>
+							   (91) 00000-0000
+							</a>
+						</span>
 						<p>Ipsum dolor amet, consectetur adipiscing elit, eiusmod
 							tempor incididunt lorem.</p>
 						<div class="ts-social">
@@ -551,31 +617,31 @@
 	<div class="cs-item-list">
 		<div class="cs-item set-bg" data-setbg="img/categories/cat-1.jpg">
 			<div class="cs-text">
-				<h5>Apartment</h5>
+				<h5>Apartamento</h5>
 				<span>230 property</span>
 			</div>
 		</div>
 		<div class="cs-item set-bg" data-setbg="img/categories/cat-2.jpg">
 			<div class="cs-text">
-				<h5>Villa</h5>
-				<span>230 property</span>
+				<h5>Casa</h5>
+				<span>230 imóveis</span>
 			</div>
 		</div>
 		<div class="cs-item set-bg" data-setbg="img/categories/cat-3.jpg">
 			<div class="cs-text">
-				<h5>House</h5>
-				<span>230 property</span>
+				<h5>Casa</h5>
+				<span>230 imóveis</span>
 			</div>
 		</div>
 		<div class="cs-item set-bg" data-setbg="img/categories/cat-4.jpg">
 			<div class="cs-text">
-				<h5>Restaurent</h5>
-				<span>230 property</span>
+				<h5>Sítio</h5>
+				<span>230 imóveis</span>
 			</div>
 		</div>
 		<div class="cs-item set-bg" data-setbg="img/categories/cat-5.jpg">
 			<div class="cs-text">
-				<h5>Office</h5>
+				<h5>Lote</h5>
 				<span>230 property</span>
 			</div>
 		</div>
@@ -766,11 +832,13 @@
         <form action="#" class="cc-form">
             <div class="group-input">
                 <input type="text" placeholder="Nome">
-                <input type="text" placeholder="Email">
+                <input type="email" placeholder="Email">
                 <input id="telefone" type="text" placeholder="Telefone">
             </div>
             <textarea placeholder="Comentário"></textarea>
-            <button id="btn-enviar" type="submit" class="site-btn">Enviar</button>
+            <div align="right">
+	            <button id="btn-enviar" type="submit" class="site-btn">Enviar</button>
+            </div>
         </form>
       </div>
     </div>
