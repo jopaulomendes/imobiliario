@@ -261,11 +261,13 @@
 		<div class="row property-filter">
 			<div class="col-lg-4 col-md-6 mix all house">
 				<div class="property-item">
-					<div class="pi-pic set-bg" data-setbg="img/property/property-1.jpg">
-						<div class="label">Alugar</div>
-					</div>
+					<a href="imovel-detalhes.jsp">
+						<div class="pi-pic set-bg" data-setbg="img/property/property-1.jpg">
+							<div class="label">Alugar</div>
+						</div>
+					</a>
 					<div class="pi-text">
-						<a title="Enviar mensagem" href="" data-toggle="modal" data-target="#modalMensagemImovel" class="heart-icon"><span class="icon_heart_alt"></span></a>
+						<a title="Enviar mensagem" href="imovel-detalhes.jsp" data-toggle="modal" data-target="#modalMensagemImovel" class="heart-icon"><span class="icon_heart_alt"></span></a>
 						<div class="pt-price">
 							R$ 700,00<span>/mês</span>
 						</div>
@@ -303,11 +305,13 @@
 			</div>
 			<div class="col-lg-4 col-md-6 mix all restaurent hotel">
 				<div class="property-item">
-					<div class="pi-pic set-bg" data-setbg="img/property/property-2.jpg">
-						<div class="label c-red">Comprar</div>
-					</div>
+					<a href="imovel-detalhes.jsp">
+						<div class="pi-pic set-bg" data-setbg="img/property/property-2.jpg">
+							<div class="label c-red">Comprar</div>
+						</div>
+					</a>
 					<div class="pi-text">
-						<a title="Enviar mensagem" href="" data-toggle="modal" data-target="#modalMensagemImovel" class="heart-icon"><span class="icon_heart_alt"></span></a>
+						<a title="Enviar mensagem" href="imovel-detalhes.jsp" data-toggle="modal" data-target="#modalMensagemImovel" class="heart-icon"><span class="icon_heart_alt"></span></a>
 						<div class="pt-price">R$ 300.000</div>
 						<h5>
 							<a href="#">Casa de 2 pavimentos disponível para venda</a>
