@@ -89,12 +89,12 @@
             <div class="row">
                 <div class="col-lg-8 col-md-8">
                     <div class="section-title">
-                        <h4>Latest Property</h4>
+                        <h4>Corretores destques</h4>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <div class="team-btn">
-                        <a href="#"><i class="fa fa-user"></i> ALL counselor</a>
+                        <a href="corretores.jsp"><i class="fa fa-user"></i> Ver todos</a>
                     </div>
                 </div>
             </div>
@@ -103,13 +103,22 @@
                     <div class="ts-item">
                         <div class="ts-text">
                             <img src="img/team/team-1.jpg" alt="">
-                            <h5>Ashton Kutcher</h5>
-                            <span>123-455-688</span>
+                            <h5>Nome do Corretor</h5>
+                            <span>
+							   <i class="fa fa-whatsapp"></i>
+							   (91) 00000-0000
+                            </span>
                             <p>Ipsum dolor amet, consectetur adipiscing elit, eiusmod tempor incididunt lorem.</p>
                             <div class="ts-social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                <a 
+                                   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000"
+                                   target="_blank" 
+								   title="Clique aqui pra iniciar uma conversa">
+								   <i class="fa fa-whatsapp"></i>
+							   </a>
                             </div>
                         </div>
                     </div>
