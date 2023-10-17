@@ -154,94 +154,107 @@
 		</div>
 		<div class="row">
 			<!-- início dos cards com os  imóveis-->
-		<div class="row property-filter">
-			<div class="col-lg-4 col-md-6 mix all house">
-				<div class="property-item">
-					<a href="imovel-detalhes.jsp">
-						<div class="pi-pic set-bg" data-setbg="img/property/property-1.jpg">
-							<div class="label">Alugar</div>
-						</div>
-					</a>
-					<div class="pi-text">
-						<a title="Enviar mensagem" href="imovel-detalhes.jsp" data-toggle="modal" data-target="#modalMensagemImovel" class="heart-icon"><span class="icon_heart_alt"></span></a>
-						<div class="pt-price">
-							R$ 700,00<span>/mês</span>
-						</div>
-						<h5>
-							<a href="#">Kitnet na Pedreira</a>
-						</h5>
-						<p>
-							<span class="icon_pin_alt"></span> Passagem E - Pedreira - Belém, PA
-						</p>
-						<ul>
-							<li title="Área útil"><i class="fa fa-object-group"></i> 160m²</li>
-							<li title="Banheiros"><i class="fa fa-bathtub"></i> 03</li>
-						    <li title="Quartos"><i class="fa fa-bed"></i> 05</li>
-							<li title="Vagas"><i class="fa fa-automobile"></i> 00</li>
-						</ul>
-						<div class="pi-agent">
-							<div class="pa-item">
-								<div class="pa-info">
-									<img src="img/property/posted-by/pb-1.jpg" alt="">
-									<h6>Nome do corretor</h6>
-								</div>
-								<div class="pa-text">
-									<a class="cor-verde-template-link"
-									   target="_blank" 
-									   title="Clique aqui pra iniciar uma conversa"
-									   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
-									   <i class="fa fa-whatsapp"></i>
-									   (91) 00000-0000
-									</a>
-								</div>
-							</div>
-						</div>
+		<div class="col-lg-4 col-md-6 mix all house">
+			<div class="property-item">
+				<a href="imovel-detalhes.jsp">
+					<div class="pi-pic set-bg" data-setbg="img/property/property-1.jpg">
+						<div class="label">Alugar</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 mix all restaurent hotel">
-				<div class="property-item">
-					<a href="imovel-detalhes.jsp">
-						<div class="pi-pic set-bg" data-setbg="img/property/property-2.jpg">
-							<div class="label c-red">Comprar</div>
-						</div>
+				</a>
+				<div class="pi-text">
+					<a 
+						href="imovel-detalhes.jsp" 
+						title="Enviar mensagem" 
+						data-toggle="modal" 
+						data-target="#modalMensagemImovel" 
+						class="heart-icon">
+						<span class="icon_heart_alt"></span>
 					</a>
-					<div class="pi-text">
-						<a title="Enviar mensagem" href="imovel-detalhes.jsp" data-toggle="modal" data-target="#modalMensagemImovel" class="heart-icon"><span class="icon_heart_alt"></span></a>
-						<div class="pt-price">R$ 300.000</div>
-						<h5>
-							<a href="#">Casa de 2 pavimentos disponível para venda</a>
-						</h5>
-						<p>
-							<span class="icon_pin_alt"></span> Passagem Alegre - nº 66, entre Marquês de Herval e Dr. Freitas - Pedreira
-						</p>
-						<ul>
-							<li title="Área útil"><i class="fa fa-object-group"></i> 160m²</li>
-							<li title="Banheiros"><i class="fa fa-bathtub"></i> 03</li>
-						    <li title="Quartos"><i class="fa fa-bed"></i> 05</li>
-							<li title="Vagas"><i class="fa fa-automobile"></i> 00</li>
-						</ul>
-						<div class="pi-agent">
-							<div class="pa-item">
-								<div class="pa-info">
-									<img src="img/property/posted-by/pb-1.jpg" alt="">
-									<h6>Nome do corretor</h6>
-								</div>
-								<div class="pa-text">
-									<a class="cor-verde-template-link"
-									   target="_blank" 
-									   title="Clique aqui pra iniciar uma conversa"
-									   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
-									   <i class="fa fa-whatsapp"></i>
-									   (91) 00000-0000
-									</a>
-								</div>
+					<div class="pt-price">
+						R$ 700,00<span>/mês</span>
+					</div>
+					<h5>
+						<a href="imovel-detalhes.jsp">Kitnet na Pedreira</a>
+					</h5>
+					<p>
+						<span class="icon_pin_alt"></span> Passagem E - Pedreira - Belém, PA
+					</p>
+					<ul>
+						<li title="Área útil"><i class="fa fa-object-group"></i> 160m²</li>
+						<li title="Banheiros"><i class="fa fa-bathtub"></i> 03</li>
+					    <li title="Quartos"><i class="fa fa-bed"></i> 05</li>
+						<li title="Vagas"><i class="fa fa-automobile"></i> 00</li>
+					</ul>
+					<div class="pi-agent">
+						<div class="pa-item">
+							<div class="pa-info">
+								<img src="img/property/posted-by/pb-1.jpg" alt="">
+								<h6>Nome do corretor</h6>
+							</div>
+							<div class="pa-text">
+								<a class="cor-verde-template-link"
+								   target="_blank" 
+								   title="Clique aqui pra iniciar uma conversa"
+								   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+								   <i class="fa fa-whatsapp"></i>
+								   (91) 00000-0000
+								</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="col-lg-4 col-md-6 mix all restaurent hotel">
+			<div class="property-item">
+				<a href="imovel-detalhes.jsp">
+					<div class="pi-pic set-bg" data-setbg="img/property/property-2.jpg">
+						<div class="label c-red">Comprar</div>
+					</div>
+				</a>
+				<div class="pi-text">
+					<a 
+						href="imovel-detalhes.jsp" 
+						title="Enviar mensagem" 
+						data-toggle="modal" 
+						data-target="#modalMensagemImovel" 
+						class="heart-icon">
+						<span class="icon_heart_alt"></span>
+					</a>
+					<div class="pt-price">R$ 300.000</div>
+					<h5>
+						<a href="imovel-detalhes.jsp">Casa de 2 pavimentos disponível para venda</a>
+					</h5>
+					<p>
+						<span class="icon_pin_alt"></span> Passagem Alegre - nº 66, entre Marquês de Herval e Dr. Freitas - Pedreira
+					</p>
+					<ul>
+						<li title="Área útil"><i class="fa fa-object-group"></i> 160m²</li>
+						<li title="Banheiros"><i class="fa fa-bathtub"></i> 03</li>
+					    <li title="Quartos"><i class="fa fa-bed"></i> 05</li>
+						<li title="Vagas"><i class="fa fa-automobile"></i> 00</li>
+					</ul>
+					<div class="pi-agent">
+						<div class="pa-item">
+							<div class="pa-info">
+								<img src="img/property/posted-by/pb-1.jpg" alt="">
+								<h6>Nome do corretor</h6>
+							</div>
+							<div class="pa-text">
+								<a class="cor-verde-template-link"
+								   target="_blank" 
+								   title="Clique aqui pra iniciar uma conversa"
+								   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+								   <i class="fa fa-whatsapp"></i>
+								   (91) 00000-0000
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 		<!-- fim dos cards com os  imóveis-->
 			<div class="col-lg-12">
 				<div class="loadmore-btn">
@@ -254,6 +267,33 @@
 <!-- Property Section End -->
 
 <jsp:include page="rodape.jsp"></jsp:include>
+
+<!-- Modal Mensagem Imóvel -->
+<div class="modal fade" data-backdrop="static" id="modalMensagemImovel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Enviar Mensagem</h5>
+        <button id="btn-cancelar-dismiss" type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="#" class="cc-form">
+            <div class="group-input">
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input id="telefone" type="text" placeholder="Telefone">
+            </div>
+            <textarea placeholder="Comentário"></textarea>
+            <div align="right">
+	            <button id="btn-enviar" type="submit" class="site-btn">Enviar</button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Script para mostrar div do slider de aluguel ou compra -->
 <script type="text/javascript">
@@ -273,7 +313,7 @@
 	})
 </script>
 
-<!-- Listar todos os imóveis após abrirt modal -->
+<!-- Listar todos os imóveis após abrir modal -->
 <script type="text/javascript">
 	$('#btn-cancelar-dismiss').click(function (event) {
 		$('#listarTodos').click();
@@ -282,3 +322,7 @@
 		$('#listarTodos').click();
 	})
 </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+<script src="js/mascara.js"></script>

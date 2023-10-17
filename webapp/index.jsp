@@ -267,12 +267,19 @@
 						</div>
 					</a>
 					<div class="pi-text">
-						<a title="Enviar mensagem" href="imovel-detalhes.jsp" data-toggle="modal" data-target="#modalMensagemImovel" class="heart-icon"><span class="icon_heart_alt"></span></a>
+						<a 
+							href="imovel-detalhes.jsp" 
+							title="Enviar mensagem" 
+							data-toggle="modal" 
+							data-target="#modalMensagemImovel" 
+							class="heart-icon">
+							<span class="icon_heart_alt"></span>
+						</a>
 						<div class="pt-price">
 							R$ 700,00<span>/mês</span>
 						</div>
 						<h5>
-							<a href="#">Kitnet na Pedreira</a>
+							<a href="imovel-detalhes.jsp">Kitnet na Pedreira</a>
 						</h5>
 						<p>
 							<span class="icon_pin_alt"></span> Passagem E - Pedreira - Belém, PA
@@ -311,13 +318,20 @@
 						</div>
 					</a>
 					<div class="pi-text">
-						<a title="Enviar mensagem" href="imovel-detalhes.jsp" data-toggle="modal" data-target="#modalMensagemImovel" class="heart-icon"><span class="icon_heart_alt"></span></a>
+						<a 
+							href="imovel-detalhes.jsp" 
+							title="Enviar mensagem" 
+							data-toggle="modal" 
+							data-target="#modalMensagemImovel" 
+							class="heart-icon">
+							<span class="icon_heart_alt"></span>
+						</a>
 						<div class="pt-price">R$ 300.000</div>
 						<h5>
-							<a href="#">Casa de 2 pavimentos disponível para venda</a>
+							<a href="imovel-detalhes.jsp">Casa de 2 pavimentos disponível para venda</a>
 						</h5>
 						<p>
-							<span class="icon_pin_alt"></span> Passagem Alegre - nº 66, entre Marquês de Herval e Dr. Freitas - Pedreira
+							<span class="icon_pin_alt"></span> Passagem Alegre - nº 66, entre Marquês de Herval e Dr. Freitas - Pedreira - Belém, Pará, Brasil
 						</p>
 						<ul>
 							<li title="Área útil"><i class="fa fa-object-group"></i> 160m²</li>

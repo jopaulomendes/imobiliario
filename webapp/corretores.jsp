@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text">
-                        <h4>Our Agents</h4>
+                        <h4>Nossos corretores</h4>
                         <div class="bt-option">
                             <a href="./index.jsp"><i class="fa fa-home"></i> Home</a>
                             <span>Agents</span>
@@ -25,7 +25,7 @@
                 <div class="col-lg-6">
                     <div class="agent-search-form">
                         <form action="#">
-                            <input type="text" placeholder="Find agent">
+                            <input type="text" placeholder="Buscar corretor">
                             <button type="submit"><i class="fa fa-search"></i></button>
                         </form>
                     </div>
@@ -33,6 +33,7 @@
             </div>
             <div class="as-slider owl-carousel">
                 <div class="row">
+<!--                 	Início card corretores -->
                     <div class="col-lg-4 col-md-6">
                         <div class="as-item">
                             <div class="as-pic">
@@ -43,7 +44,7 @@
                             </div>
                             <div class="as-text">
                                 <div class="at-title">
-                                    <h6>Ashton Kutcher</h6>
+                                    <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -71,7 +72,7 @@
                             </div>
                             <div class="as-text">
                                 <div class="at-title">
-                                    <h6>Ashton Kutcher</h6>
+                                    <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -99,7 +100,7 @@
                             </div>
                             <div class="as-text">
                                 <div class="at-title">
-                                    <h6>Ashton Kutcher</h6>
+                                    <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -127,7 +128,7 @@
                             </div>
                             <div class="as-text">
                                 <div class="at-title">
-                                    <h6>Ashton Kutcher</h6>
+                                    <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -155,7 +156,7 @@
                             </div>
                             <div class="as-text">
                                 <div class="at-title">
-                                    <h6>Ashton Kutcher</h6>
+                                    <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -183,7 +184,7 @@
                             </div>
                             <div class="as-text">
                                 <div class="at-title">
-                                    <h6>Ashton Kutcher</h6>
+                                    <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -201,6 +202,7 @@
                             </div>
                         </div>
                     </div>
+<!--                     Fim -->
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
@@ -213,7 +215,7 @@
                             </div>
                             <div class="as-text">
                                 <div class="at-title">
-                                    <h6>Ashton Kutcher</h6>
+                                    <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -241,7 +243,7 @@
                             </div>
                             <div class="as-text">
                                 <div class="at-title">
-                                    <h6>Ashton Kutcher</h6>
+                                    <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -269,7 +271,7 @@
                             </div>
                             <div class="as-text">
                                 <div class="at-title">
-                                    <h6>Ashton Kutcher</h6>
+                                    <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -297,7 +299,7 @@
                             </div>
                             <div class="as-text">
                                 <div class="at-title">
-                                    <h6>Ashton Kutcher</h6>
+                                    <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -325,7 +327,7 @@
                             </div>
                             <div class="as-text">
                                 <div class="at-title">
-                                    <h6>Ashton Kutcher</h6>
+                                    <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -353,7 +355,7 @@
                             </div>
                             <div class="as-text">
                                 <div class="at-title">
-                                    <h6>Ashton Kutcher</h6>
+                                    <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>

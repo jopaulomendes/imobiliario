@@ -257,9 +257,17 @@
                                 <div class="ta-item">
                                     <div class="ta-pic set-bg" data-setbg="img/property/details/sidebar/ta-1.jpg"></div>
                                     <div class="ta-text">
-                                        <h6><a href="#">João Paulo da Mata Mendes</a></h6>
-                                        <span>Team Leader</span>
-                                        <div class="ta-num">123-455-688</div>
+                                        <h6><a href="#">Nome do Corretor</a></h6>
+                                        <span>Especialista em imóveis</span>
+                                        <div class="ta-num">
+                                        	<a class="cor-verde-template-link"
+											   target="_blank" 
+											   title="Clique aqui pra iniciar uma conversa"
+											   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+											   <i class="fa fa-whatsapp mr-1"></i>
+											   (91) 00000-0000
+											</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
