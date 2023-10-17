@@ -46,7 +46,7 @@
 			                <input id="telefone" type="text" placeholder="Telefone">
 			            </div>
 			            <textarea placeholder="Comentário"></textarea>
-			            <div align="right">
+			            <div align="left">
 				            <button id="btn-enviar" type="submit" class="site-btn">Enviar</button>
 			            </div>
                     </form>

@@ -4315,3 +4315,10 @@ li .richText-btn[data-command=toggleCode] {
 .cor-verde-template-link:hover {
 	color: #00b38d;
 }
+
+.btn-logar{
+    position:absolute;
+    right:15px;
+    top:10px;
+    
+}

@@ -77,6 +77,9 @@
 
 	<!-- Header Section Begin -->
 	<header class="header-section">
+		<span class="btn-logar">
+			<a href="sistema" title="Login administrativo" class="text-secondary"><i class="fa fa-unlock"></a></i>
+		</span>
 		<div class="hs-top">
 			<div class="container">
 				<div class="row">
