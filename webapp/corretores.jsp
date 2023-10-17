@@ -54,11 +54,17 @@
                                     </div>
                                 </div>
                                 <ul>
-                                    <li>Property <span>215</span></li>
+                                    <li>Imóveis <span>215</span></li>
                                     <li>Email <span>Kucher@gmail.com</span></li>
-                                    <li>Phone <span>123-455-688</span></li>
+                                    <li>Telefone <span>(91) 99999-9999</span></li>
                                 </ul>
-                                <a href="#" class="primary-btn">View profile</a>
+                                <a class="primary-btn"
+								   target="_blank" 
+								   title="Clique aqui pra iniciar uma conversa"
+								   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+								   <i class="fa fa-whatsapp mr-1"></i>
+								   Entrar em contato
+								</a>
                             </div>
                         </div>
                     </div>
@@ -82,23 +88,22 @@
                                     </div>
                                 </div>
                                 <ul>
-                                    <li>Property <span>215</span></li>
+                                    <li>Imóveis <span>215</span></li>
                                     <li>Email <span>Kucher@gmail.com</span></li>
-                                    <li>Phone <span>123-455-688</span></li>
+                                    <li>Telefone <span>(91) 99999-9999</span></li>
                                 </ul>
-                                <a href="#" class="primary-btn">View profile</a>
+                                <a class="primary-btn"
+								   target="_blank" 
+								   title="Clique aqui pra iniciar uma conversa"
+								   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+								   <i class="fa fa-whatsapp mr-1"></i>
+								   Entrar em contato
+								</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="as-item">
-                            <div class="as-pic">
-                                <img src="img/agents/agent-3.jpg" alt="">
-                                <div class="rating-point">
-                                    4.5
-                                </div>
-                            </div>
-                            <div class="as-text">
+                        <div class="as-text">
                                 <div class="at-title">
                                     <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
@@ -110,23 +115,21 @@
                                     </div>
                                 </div>
                                 <ul>
-                                    <li>Property <span>215</span></li>
+                                    <li>Imóveis <span>215</span></li>
                                     <li>Email <span>Kucher@gmail.com</span></li>
-                                    <li>Phone <span>123-455-688</span></li>
+                                    <li>Telefone <span>(91) 99999-9999</span></li>
                                 </ul>
-                                <a href="#" class="primary-btn">View profile</a>
+                                <a class="primary-btn"
+								   target="_blank" 
+								   title="Clique aqui pra iniciar uma conversa"
+								   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+								   <i class="fa fa-whatsapp mr-1"></i>
+								   Entrar em contato
+								</a>
                             </div>
-                        </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="as-item">
-                            <div class="as-pic">
-                                <img src="img/agents/agent-4.jpg" alt="">
-                                <div class="rating-point">
-                                    4.5
-                                </div>
-                            </div>
-                            <div class="as-text">
+                        <div class="as-text">
                                 <div class="at-title">
                                     <h6>Nome do Corretor</h6>
                                     <div class="rating-star">
@@ -138,13 +141,18 @@
                                     </div>
                                 </div>
                                 <ul>
-                                    <li>Property <span>215</span></li>
+                                    <li>Imóveis <span>215</span></li>
                                     <li>Email <span>Kucher@gmail.com</span></li>
-                                    <li>Phone <span>123-455-688</span></li>
+                                    <li>Telefone <span>(91) 99999-9999</span></li>
                                 </ul>
-                                <a href="#" class="primary-btn">View profile</a>
+                                <a class="primary-btn"
+								   target="_blank" 
+								   title="Clique aqui pra iniciar uma conversa"
+								   href="https://api.whatsapp.com/send?1=pt_BR&phone=559100000000">
+								   <i class="fa fa-whatsapp mr-1"></i>
+								   Entrar em contato
+								</a>
                             </div>
-                        </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="as-item">
