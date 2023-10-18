@@ -6,8 +6,8 @@
 
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="Aler Template">
-<meta name="keywords" content="Aler, unica, creative, html">
+<meta name="description" content="Imobiliária Jopaulo - Encontre casas, apartamentos, terrenos e imóveis para compra, venda e aluguel.">
+<meta name="keywords" content="Comprar, alugar, imóveis, apartamentos, Belém">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Sistema Imobiliário</title>
@@ -30,6 +30,10 @@
 <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
 <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
 <link rel="stylesheet" href="css/style.css" type="text/css">
+
+<!-- Faviicon -->
+<!-- <link rel="shortcut icon" href="mg/favicon.ico" type="image/x-icon"> -->
+<!-- <link rel="icon" href="img/favicon.ico" type="image/x-icon"> -->
 </head>
 
 <body>
@@ -78,7 +82,7 @@
 	<!-- Header Section Begin -->
 	<header class="header-section">
 		<span class="btn-logar">
-			<a href="sistema" title="Login administrativo" class="text-secondary"><i class="fa fa-unlock"></a></i>
+			<a href="sistema" title="Login administrativo" target="_blank" class="text-secondary"><i class="fa fa-unlock"></a></i>
 		</span>
 		<div class="hs-top">
 			<div class="container">
