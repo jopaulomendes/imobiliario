@@ -1,6 +1,7 @@
 package imobiliaria.servlets;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -9,11 +10,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import imobiliaria.dao.LoginRepository;
 import imobiliaria.model.LoginModel;
 
 @WebServlet(urlPatterns = {"/sistema/ServletLogin", "/sistema"})
 public class ServletLogin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	
+	private LoginRepository repository = new LoginRepository();
        
     public ServletLogin() {
     }
@@ -26,32 +30,37 @@ public class ServletLogin extends HttpServlet {
 		String senha = request.getParameter("senha");
 		String url = request.getParameter("url");
 		
-		if (email != null && !email.isEmpty() && senha != null && !senha.isEmpty()) {
-			LoginModel loginModel = new LoginModel();
-			loginModel.setEmail(email);
-			loginModel.setSenha(senha);
-			
-			if (loginModel.getEmail().equalsIgnoreCase("admin@gmail.com") && loginModel.getSenha().equalsIgnoreCase("1234")) {
-				request.getSession().setAttribute(email, loginModel.getEmail());
-				request.getSession().setAttribute(senha, loginModel.getSenha());
+		try {
+			if (email != null && !email.isEmpty() && senha != null && !senha.isEmpty()) {
+				LoginModel loginModel = new LoginModel();
+				loginModel.setEmail(email);
+				loginModel.setSenha(senha);
 				
-				if (url == null || url.equals("null")) {
-					url = "index.jsp";
-				}
-        		
-				RequestDispatcher dispatcher = request.getRequestDispatcher("../tela-principal.jsp");
-        		dispatcher.forward(request, response);
+					if (repository.autenticacao(loginModel)) {
+						request.getSession().setAttribute(email, loginModel.getEmail());
+						request.getSession().setAttribute(senha, loginModel.getSenha());
+						
+						if (url == null || url.equals("null")) {
+							url = "index.jsp";
+						}
+						
+						RequestDispatcher dispatcher = request.getRequestDispatcher("../tela-principal.jsp");
+						dispatcher.forward(request, response);
+					} else {
+						RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+						request.setAttribute("msg", "E-mail e/ou senha incorretos");
+						dispatcher.forward(request, response);
+						return;
+					}
+				
+				
 			} else {
-				RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
-				request.setAttribute("msg", "E-mail e/ou senha incorretos");
-				dispatcher.forward(request, response);
-				return;
+		        RequestDispatcher dispatcher = request.getRequestDispatcher(request.getServletPath());
+		        dispatcher.forward(request, response);
+				request.setAttribute("msg", "Dados incorretos");
 			}
-			
-		} else {
-	        RequestDispatcher dispatcher = request.getRequestDispatcher(request.getServletPath());
-	        dispatcher.forward(request, response);
-			request.setAttribute("msg", "Dados incorretos");
+		} catch (SQLException | ServletException | IOException e) {
+			e.printStackTrace();
 		}
 		
 	}
