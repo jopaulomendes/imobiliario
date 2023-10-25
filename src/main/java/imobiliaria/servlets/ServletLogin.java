@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import imobiliaria.model.LoginModel;
 
-@WebServlet(urlPatterns = {"/sistema/ServletLogin", "/ServletLogin"})
+@WebServlet(urlPatterns = {"/sistema/ServletLogin", "/sistema"})
 public class ServletLogin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
