@@ -17,7 +17,7 @@ public class LoginRepository {
 	}
 	
 	public boolean autenticacao(LoginModel loginModel) throws SQLException {
-		String sql = "SELEC * FROM usuarios WHERE email = ? and senha = ? ";
+		String sql = "SELECT * FROM usuarios WHERE email = ? and senha = ? ";
 		
 		PreparedStatement statement = connection.prepareStatement(sql);
 		statement.setString(1, loginModel.getEmail());

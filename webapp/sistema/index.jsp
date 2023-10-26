@@ -20,16 +20,22 @@
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
                         <h2>${msg}</h2>
-                        <form id="login-form" class="form" action="ServletLogin" method="post">
+                        <form id="login-form" class="form needs-validation" action="ServletLogin" method="post" novalidate>
                         	<input type="hidden" value="<%= request.getParameter("url") %>" name="url">
                             <h3 class="text-center text-info">Login</h3>
                             <div class="form-group">
                                 <label for="username" class="text-info">E-mail:</label><br>
                                 <input type="email" name="email" class="form-control" required>
+                                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+							       E-mail obrigatório.
+							     </div>
                             </div>
                             <div class="form-group">
                                 <label for="password" class="text-info">Senha:</label><br>
                                 <input type="password" name="senha" class="form-control" required>
+                                 <div id="validationServerUsernameFeedback" class="invalid-feedback">
+							        Senha obrigatória.
+							      </div>
                             </div>
                             <div class="form-group">
                                 <label for="remember-me" class="text-info"><span>Lembrar</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
@@ -44,6 +50,26 @@
             </div>
         </div>
     </div>
+    
+    <script type="text/javascript">
+	    (function () {
+	      'use strict'
+	
+	      var forms = document.querySelectorAll('.needs-validation')
+	
+	      Array.prototype.slice.call(forms)
+	        .forEach(function (form) {
+	          form.addEventListener('submit', function (event) {
+	            if (!form.checkValidity()) {
+	              event.preventDefault()
+	              event.stopPropagation()
+	            }
+	
+	            form.classList.add('was-validated')
+	          }, false)
+	        })
+	    })()
+    </script>
 </body>
 
 

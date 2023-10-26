@@ -50,17 +50,18 @@ public class ServletLogin extends HttpServlet {
 						RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
 						request.setAttribute("msg", "E-mail e/ou senha incorretos");
 						dispatcher.forward(request, response);
-						return;
 					}
 				
-				
 			} else {
-		        RequestDispatcher dispatcher = request.getRequestDispatcher(request.getServletPath());
-		        dispatcher.forward(request, response);
-				request.setAttribute("msg", "Dados incorretos");
+				RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+				request.setAttribute("msg", "E-mail e/ou senha incorretos");
+				dispatcher.forward(request, response);
 			}
 		} catch (SQLException | ServletException | IOException e) {
 			e.printStackTrace();
+			RequestDispatcher dispatcher = request.getRequestDispatcher("../erro.jsp");
+			request.setAttribute("msg", e.getMessage());
+			dispatcher.forward(request, response);
 		}
 		
 	}
