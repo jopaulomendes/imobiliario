@@ -23,6 +23,7 @@ public class ServletLogin extends HttpServlet {
     }
     
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doPost(request, response);
 	}
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -57,7 +58,7 @@ public class ServletLogin extends HttpServlet {
 				request.setAttribute("msg", "E-mail e/ou senha incorretos");
 				dispatcher.forward(request, response);
 			}
-		} catch (SQLException | ServletException | IOException e) {
+		} catch (ServletException | IOException | SQLException e) {
 			e.printStackTrace();
 			RequestDispatcher dispatcher = request.getRequestDispatcher("../erro.jsp");
 			request.setAttribute("msg", e.getMessage());
