@@ -82,7 +82,10 @@
 	<!-- Header Section Begin -->
 	<header class="header-section">
 		<span class="btn-logar">
-			<a href="sistema/index.jsp" title="Login administrativo" target="_blank" class="text-secondary"><i class="fa fa-unlock"></a></i>
+			<a href="sistema/index.jsp" title="Login administrativo" target="_blank" class="text-secondary d-none d-md-block"><i class="fa fa-unlock"></a></i>
+		</span>
+		<span class="btn-logar-mobile">
+			<a href="sistema/index.jsp" title="Login administrativo" target="_blank" class="text-secondary d-block d-sm-none"><i class="fa fa-unlock"></a></i>
 		</span>
 		<div class="hs-top">
 			<div class="container">

@@ -29,6 +29,7 @@ public class ServletLogin extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String email = request.getParameter("email");
 		String senha = request.getParameter("senha");
+//		String nivel = request.getParameter("nivel");
 		String url = request.getParameter("url");
 		
 		try {
@@ -36,16 +37,18 @@ public class ServletLogin extends HttpServlet {
 				LoginModel loginModel = new LoginModel();
 				loginModel.setEmail(email);
 				loginModel.setSenha(senha);
+//				loginModel.setNivel(nivel);
 				
 					if (repository.autenticacao(loginModel)) {
 						request.getSession().setAttribute(email, loginModel.getEmail());
 						request.getSession().setAttribute(senha, loginModel.getSenha());
+//						request.getSession().setAttribute(nivel, loginModel.getNivel());
 						
 						if (url == null || url.equals("null")) {
 							url = "index.jsp";
 						}
 						
-						RequestDispatcher dispatcher = request.getRequestDispatcher("../tela-principal.jsp");
+						RequestDispatcher dispatcher = request.getRequestDispatcher("painel-admin/index.jsp");
 						dispatcher.forward(request, response);
 					} else {
 						RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
