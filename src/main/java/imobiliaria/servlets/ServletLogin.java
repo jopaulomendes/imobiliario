@@ -23,6 +23,15 @@ public class ServletLogin extends HttpServlet {
     }
     
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String acao = request.getParameter("acao");
+		
+		if (acao != null && !acao.isEmpty() && acao.equalsIgnoreCase("sair")) {
+			request.getSession().invalidate();
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+			dispatcher.forward(request, response);
+		}
+		
+		System.out.println("Logout realizado com sucesso!");
 		doPost(request, response);
 	}
 	
@@ -48,10 +57,11 @@ public class ServletLogin extends HttpServlet {
 							url = "index.jsp";
 						}
 						
-						RequestDispatcher dispatcher = request.getRequestDispatcher("painel-admin/index.jsp");
+						RequestDispatcher dispatcher = request.getRequestDispatcher("painel-admin");
 						dispatcher.forward(request, response);
+						return;
 					} else {
-						RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+						RequestDispatcher dispatcher = request.getRequestDispatcher("sistema/index.jsp");
 						request.setAttribute("msg", "E-mail e/ou senha incorretos");
 						dispatcher.forward(request, response);
 					}

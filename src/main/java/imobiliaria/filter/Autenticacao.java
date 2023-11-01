@@ -43,10 +43,11 @@ public class Autenticacao extends HttpFilter implements Filter {
 			String urlAutenticacao = servletRequest.getServletPath();
 			
 			if (email == null && !urlAutenticacao.equalsIgnoreCase("/sistema/ServletLogin")) {
-				RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp?url=" + urlAutenticacao);
-//			request.setAttribute("msg", "Realize o login no sistema!");
-				dispatcher.forward(request, response);
-				return;
+				if (!urlAutenticacao.endsWith(".css") || !urlAutenticacao.endsWith(".js")) {
+					RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp?url=" + urlAutenticacao);
+					dispatcher.forward(request, response);
+					return;
+				}
 			} else {
 				chain.doFilter(request, response);
 			}
