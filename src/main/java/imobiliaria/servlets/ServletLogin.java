@@ -38,6 +38,7 @@ public class ServletLogin extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String email = request.getParameter("email");
 		String senha = request.getParameter("senha");
+//		String nome = request.getParameter("nome");
 //		String nivel = request.getParameter("nivel");
 		String url = request.getParameter("url");
 		
@@ -51,7 +52,9 @@ public class ServletLogin extends HttpServlet {
 					if (repository.autenticacao(loginModel)) {
 						request.getSession().setAttribute(email, loginModel.getEmail());
 						request.getSession().setAttribute(senha, loginModel.getSenha());
-//						request.getSession().setAttribute(nivel, loginModel.getNivel());
+						request.getSession().setAttribute("nome", loginModel.getNome());
+						request.getSession().setAttribute("cpf", loginModel.getCpf());
+						request.getSession().setAttribute("nivel", loginModel.getNivel());
 						
 						if (url == null || url.equals("null")) {
 							url = "index.jsp";
