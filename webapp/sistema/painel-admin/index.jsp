@@ -1,3 +1,11 @@
+<%//variaveis para o menu
+    String pag = request.getParameter("pag");
+    String menu1 = "corretores";
+    String menu2 = "tesoureiros";
+    String menu3 = "cidade";
+
+%>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,7 +27,7 @@
         <link href="../../arq-sistema/css/sb-admin-2.min.css" rel="stylesheet">
         <link href="../../arq-sistema/css/style.css" rel="stylesheet">
         
-        <link href=../vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+        <link href=../../arq-sistema/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 
         <!-- Bootstrap core JavaScript-->
@@ -38,15 +46,13 @@
             <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
                 <!-- Sidebar - Brand -->
-                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.jsp">
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="home.jsp">
 
                     <div class="sidebar-brand-text mx-3">Administrador</div>
                 </a>
 
                 <!-- Divider -->
                 <hr class="sidebar-divider my-0">
-
-
 
                 <!-- Divider -->
                 <hr class="sidebar-divider">
@@ -136,12 +142,8 @@
                             <i class="fa fa-bars"></i>
                         </button>
 
-
-
                         <!-- Topbar Navbar -->
                         <ul class="navbar-nav ml-auto">
-
-
 
                             <!-- Nav Item - User Information -->
                             <li class="nav-item dropdown no-arrow">
@@ -172,26 +174,24 @@
                     <!-- End of Topbar -->
 
                     <!-- Begin Page Content -->
-<!--                     <div class="container-fluid"> -->
+                    <div class="container-fluid">
 
-<%--                         <% if (pag == null) { %> --%>
-<%--                         <jsp:include page="home.jsp" /> --%>
-<%--                         <% } else if (pag.equals(menu1)) {%> --%>
-<%--                         <jsp:include page='<%=menu1 + ".jsp"%>' /> --%>
-<%--                         <% } else if (pag.equals(menu2)) {%> --%>
-<%--                         <jsp:include page='<%=menu2 + ".jsp"%>' />    --%>
-<%--                         <%  } else {%> --%>
-<%--                         <jsp:include page="home.jsp" /> --%>
-<%--                         <%  } --%>
-<%--                         %> --%>
+                      <% if (pag == null) { %>
+                        <jsp:include page="home.jsp" />
+                        <% } else if (pag.equals(menu1)) {%>
+                        <jsp:include page='<%=menu1 + ".jsp"%>' />
+                        <% } else if (pag.equals(menu2)) {%>
+                        <jsp:include page='<%=menu2 + ".jsp"%>' />   
+                        <%  } else {%>
+                        <jsp:include page="home.jsp" />
+                        <%  }
+                        %>
 
-<!--                     </div> -->
+                    </div>
                     <!-- /.container-fluid -->
 
                 </div>
                 <!-- End of Main Content -->
-
-
 
             </div>
             <!-- End of Content Wrapper -->
@@ -204,9 +204,6 @@
             <i class="fas fa-angle-up"></i>
         </a>
 
-
-
-
         <!--  Modal Perfil-->
         <div class="modal fade" id="ModalPerfil" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
@@ -217,8 +214,6 @@
                             <span aria-hidden="true">×</span>
                         </button>
                     </div>
-
-
 
                     <form id="form-perfil" method="POST" enctype="multipart/form-data">
                         <div class="modal-body">
@@ -257,21 +252,14 @@
                                 </div>
                             </div> 
 
-
-
                             <small>
                                 <div id="mensagem" class="mr-4">
 
                                 </div>
                             </small>
-
-
-
+                            
                         </div>
                         <div class="modal-footer">
-
-
-
                             <input value="" type="hidden" name="txtid" id="txtid">
                             <input value="" type="hidden" name="antigo" id="antigo">
 
@@ -279,8 +267,6 @@
                             <button type="submit" name="btn-salvar-perfil" id="btn-salvar-perfil" class="btn btn-primary">Salvar</button>
                         </div>
                     </form>
-
-
                 </div>
             </div>
         </div>

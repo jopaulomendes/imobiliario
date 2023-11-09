@@ -36,7 +36,7 @@ public class LoginRepository {
 			int count = countResultSet.getInt(1);
 			if (count == 0) {
 				// Inserir um novo usuário
-				String insertSql = "INSERT into usuarios (nome, cpf, email, senha, nivel) values ('Administrador', '000.000.000-00' , 'admin@gmail.com' , '1234', 'admin')";
+				String insertSql = "INSERT into usuarios (nome, cpf, email, senha, nivel) values ('Administrador', '000.000.000-00' , 'admin@gmail.com' , '1234', 'admin', 'foto-usuario')";
 				PreparedStatement insertStatement = connection.prepareStatement(insertSql);
 	            int rowsInserted = insertStatement.executeUpdate();
 	            if (rowsInserted > 0) {
