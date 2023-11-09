@@ -46,7 +46,7 @@
             <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
                 <!-- Sidebar - Brand -->
-                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="home.jsp">
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.jsp">
 
                     <div class="sidebar-brand-text mx-3">Administrador</div>
                 </a>
@@ -72,8 +72,8 @@
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">PESSOAS:</h6>
-                            <a class="collapse-item" href="i#">Corretores</a>
-                            <a class="collapse-item" href="#">Tesoureiros</a>
+                            <a class="collapse-item" href="index.jsp?pag=<%=menu1%>">Corretores</a>
+                             <a class="collapse-item" href="index.jsp?pag=<%=menu2%>">Tesoureiros</a>
                         </div>
                     </div>
                 </li>
