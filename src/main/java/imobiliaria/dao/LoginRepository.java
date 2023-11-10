@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import imobiliaria.model.LoginModel;
+import imobiliaria.model.Usuario;
 import imobiliaria.util.Conexao;
 
 public class LoginRepository {
@@ -17,7 +17,7 @@ public class LoginRepository {
 		connection = Conexao.getConnection();
 	}
 	
-	public boolean autenticacao(LoginModel loginModel) throws SQLException {
+	public boolean autenticacao(Usuario loginModel) throws SQLException {
 		String sql = "SELECT * FROM usuarios WHERE email = ? and senha = ? ";
 		
 		PreparedStatement statement = connection.prepareStatement(sql);
@@ -36,7 +36,7 @@ public class LoginRepository {
 			int count = countResultSet.getInt(1);
 			if (count == 0) {
 				// Inserir um novo usuário
-				String insertSql = "INSERT into usuarios (nome, cpf, email, senha, nivel) values ('Administrador', '000.000.000-00' , 'admin@gmail.com' , '1234', 'admin', 'foto-usuario')";
+				String insertSql = "INSERT into usuarios (nome, cpf, email, senha, nivel, foto) values ('Administrador', '000.000.000-00' , 'admin@gmail.com' , '1234', 'admin', 'foto-usuario')";
 				PreparedStatement insertStatement = connection.prepareStatement(insertSql);
 	            int rowsInserted = insertStatement.executeUpdate();
 	            if (rowsInserted > 0) {

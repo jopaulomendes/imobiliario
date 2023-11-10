@@ -11,13 +11,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import imobiliaria.dao.LoginRepository;
-import imobiliaria.model.LoginModel;
+import imobiliaria.dao.UsuarioRepository;
+import imobiliaria.model.Usuario;
 
 @WebServlet(urlPatterns = {"/sistema/ServletLogin", "/sistema"})
 public class ServletLogin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-	private LoginRepository repository = new LoginRepository();
+	private LoginRepository loginRepository = new LoginRepository();
+	private UsuarioRepository usuarioRepository = new UsuarioRepository();
        
     public ServletLogin() {
     }
@@ -44,17 +46,19 @@ public class ServletLogin extends HttpServlet {
 		
 		try {
 			if (email != null && !email.isEmpty() && senha != null && !senha.isEmpty()) {
-				LoginModel loginModel = new LoginModel();
-				loginModel.setEmail(email);
-				loginModel.setSenha(senha);
+				Usuario usuario = new Usuario();
+				usuario.setEmail(email);
+				usuario.setSenha(senha);
 //				loginModel.setNivel(nivel);
 				
-					if (repository.autenticacao(loginModel)) {
-						request.getSession().setAttribute(email, loginModel.getEmail());
-						request.getSession().setAttribute(senha, loginModel.getSenha());
-						request.getSession().setAttribute("nome", loginModel.getNome());
-						request.getSession().setAttribute("cpf", loginModel.getCpf());
-						request.getSession().setAttribute("nivel", loginModel.getNivel());
+					if (loginRepository.autenticacao(usuario)) {
+						usuario = usuarioRepository.consultarUsuario(email);
+						
+						request.getSession().setAttribute("email", usuario.getEmail());
+						request.getSession().setAttribute("senha", usuario.getSenha());
+						request.getSession().setAttribute("nome", usuario.getNome());
+						request.getSession().setAttribute("cpf", usuario.getCpf());
+						request.getSession().setAttribute("nivel", usuario.getNivel());
 						
 						if (url == null || url.equals("null")) {
 							url = "index.jsp";

@@ -1,9 +1,12 @@
+<%@page import="imobiliaria.model.Usuario"%>
+
 <%//variaveis para o menu
     String pag = request.getParameter("pag");
     String menu1 = "corretores";
     String menu2 = "tesoureiros";
     String menu3 = "cidade";
-
+    
+    Usuario usuario = new Usuario();
 %>
 
 <!DOCTYPE html>
@@ -149,7 +152,7 @@
                             <li class="nav-item dropdown no-arrow">
                                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <span class="mr-2 d-none d-lg-inline text-gray-600 small">
-                                    	<%=session.getAttribute("email")%>                                    
+                                    	<%=session.getAttribute("nome")%>                                    
                                     </span>
                                     <img class="img-profile rounded-circle" src="../../arq-sistema/img/profiles/sem-foto.jpg">
                                 </a>
@@ -222,22 +225,29 @@
                                 <div class="col-md-6 col-sm-12">
                                     <div class="form-group">
                                         <label >Nome</label>
-                                        <input value="" type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
+                                        <input 
+                                        	type="text" 
+                                        	class="form-control" 
+                                        	id="nome" 
+                                        	name="nome"
+                                        	placeholder="José Maria de Souza"
+                                        	value="<%= usuario.getNome() %>" 
+                                       	>
                                     </div>
 
                                     <div class="form-group">
                                         <label >CPF</label>
-                                        <input value="" type="text" class="form-control" id="cpf" name="cpf" placeholder="CPF">
+                                        <input value="" type="text" class="form-control" id="cpf" name="cpf" placeholder="999.999.999-99">
                                     </div>
 
                                     <div class="form-group">
                                         <label >Email</label>
-                                        <input value="" type="email" class="form-control" id="email" name="email" placeholder="Email">
+                                        <input value="" type="email" class="form-control" id="email" name="email" placeholder="jose@email.com">
                                     </div>
 
                                     <div class="form-group">
                                         <label >Senha</label>
-                                        <input value="" type="password" class="form-control" id="text" name="senha" placeholder="Senha">
+                                        <input value="" type="password" class="form-control" id="text" name="senha" placeholder="1234">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">

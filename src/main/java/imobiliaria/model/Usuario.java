@@ -2,15 +2,25 @@ package imobiliaria.model;
 
 import java.io.Serializable;
 
-public class LoginModel implements Serializable {
+public class Usuario implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
+	private Long id;
 	private String nome;
 	private String cpf;
 	private String email;
 	private String senha;
 	private String nivel;
+	private String foto;
+	
+	public Long getId() {
+		return id;
+	}
+	
+	public void setId(Long id) {
+		this.id = id;
+	}
 	
 	public String getEmail() {
 		return email;
@@ -41,6 +51,14 @@ public class LoginModel implements Serializable {
 	}
 	public void setNivel(String nivel) {
 		this.nivel = nivel;
+	}
+
+	public String getFoto() {
+		return foto;
+	}
+
+	public void setFoto(String foto) {
+		this.foto = foto;
 	}
 
 }
